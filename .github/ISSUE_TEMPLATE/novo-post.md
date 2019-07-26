@@ -4,6 +4,7 @@ about: Utilize quando quiser propor um tema a ser desenvolvido em um post.
 title: "[NOVO]"
 labels: 'novo post'
 assignees: JuanBarros2, JRobsonJr
+projects: 'Geral'
 
 ---
 
