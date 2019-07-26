@@ -2,7 +2,7 @@
 name: Novo post
 about: Utilize quando quiser propor um tema a ser desenvolvido em um post.
 title: "[NOVO]"
-labels: ''
+labels: 'novo post'
 assignees: JuanBarros2, JRobsonJr
 
 ---
