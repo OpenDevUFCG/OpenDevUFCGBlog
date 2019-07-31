@@ -17,3 +17,5 @@ será publicado na organização da OpenDevUFCG na plataforma [dev.to](https://d
 creditando a autoria pelo conteúdo criado nesse post e ficará disponível no presente 
 repositório. Também estou ciente que a organização publicará posts propagando minha
 publicação em redes sociais, dando visibilidade ao meu post. 
+
+Fique atento ao [nosso guia de contribuição](https://github.com/OpenDevUFCG/OpenDevUFCGBlog/blob/master/CONTRIBUTING.md) para guiar a produção do seu artigo.
