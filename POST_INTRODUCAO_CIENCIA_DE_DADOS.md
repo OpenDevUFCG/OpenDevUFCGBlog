@@ -1,3 +1,11 @@
+---
+title: Introdução à Ciência de Dados
+published: false
+description: Este post traz uma introdução à Ciência de Dados, uma área em crescimento e bastante promissora. Vem comigo!
+tags: data-science, ciencia-de-dados, ptbr
+cover_image: https://thepracticaldev.s3.amazonaws.com/i/saia38h9cnyql3ggyd06.jpg
+---
+
 # Indrodução a Ciência de Dados
 
 Oi meninis, turo bom?
