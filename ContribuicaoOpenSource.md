@@ -28,7 +28,7 @@ Também é importante ter em mente que uma contribuição para um projeto open s
 
 ## Descobrindo repositórios e contribuindo
 
-É muito comum que não se saiba muito bem por onde começar a contribuir no início da "aventura" pelo mundo open source. Para minimizar essa dificuldade, você pode visualizar a sessão **discover repositories**, que traz recomendações muito interessantes de repositórios de projetos, baseadas em outros repositórios que você deu star, em pessoas que você segue, em tecnologias recentes que você trabalhou e também em popularidade do projeto, os **trendings**.
+É muito comum que não se saiba muito bem por onde começar a contribuir no início da "aventura" pelo mundo open source. Para minimizar essa dificuldade, você pode visualizar a sessão **[discover repositories](https://github.com/discover)**, que traz recomendações muito interessantes de repositórios de projetos, baseadas em outros repositórios que você deu star, em pessoas que você segue, em tecnologias recentes que você trabalhou e também em popularidade do projeto, os **trendings**.
 
 Depois de localizar um projeto com o qual se identificou, você pode explorar o arquivo **README.md** a fim de obter informações a respeito do que se trata o projeto, com quais tecnologias ele trabalha, como rodar na sua máquina, link da página principal, entre outras. É importante ter em mente que a disponibilidade dessas informações nesse arquivo depende bastante da organização que criou o projeto, e como ela organiza suas atividades.
 
