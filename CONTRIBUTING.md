@@ -37,13 +37,9 @@ Por enquanto, **ainda** não prevemos estar fazendo publicações fora das datas
 
 O editor de postagens do dev.to dispõe de várias dicas de Markdown que podem ser acessadas clicando no botão **?**. Tudo deve ser simples de entender, mas se houver dúvida para inserir alguma coisa, não hesitem em nos procurar!
 
-O editor do dev.to também tem suporte a várias liquid tags, que facilitam bastante a adição de conteúdo incorporado na publicação. Por exemplo, `{% github OpenDevUFCG/OpenDevUFCGBlog %}` é renderizado da seguinte forma:
-
-{% github OpenDevUFCG/OpenDevUFCGBlog %}
+O editor do dev.to também tem suporte a várias liquid tags, que facilitam bastante a adição de conteúdo incorporado na publicação. Dê uma olhada no [link para esse guia no dev.to](https://dev.to/opendevufcg/guia-de-postagens-no-dev-to-3c1b-temp-slug-6645055?preview=425fc609e9fa6bbd74139294f6c7220e91b6e75c9f38c54d0549d7886b8537a20d36d21bb00ccb2de68aaaa789a28f37e13a48542d6fab81ef7ddb0c) para ver como `{% github OpenDevUFCG/OpenDevUFCGBlog %}` é renderizado.
 
 Liquid tags semelhantes podem ser usadas para incorporar mídia de diversas outras plataformas, como YouTube, Twitter e Spotify. Não deixe de consultar a lista e como utilizá-las (também no botão **?** do editor de postagens).
-
-{% user jrobsonjr %}
 
 ## Variáveis e valores
 
