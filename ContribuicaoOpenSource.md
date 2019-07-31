@@ -1,5 +1,5 @@
 ---
-title: Contribuindo para projetos Open Source com GitHub
+title: Contribuindo para projetos open source com GitHub
 published: false
 description: Uma porta de entrada para pessoas que planejam começar a fazer contribuições para organizações open source.
 tags: opensource, comunidade, github, ptbr.
@@ -8,10 +8,20 @@ cover_image: https://thepracticaldev.s3.amazonaws.com/i/16tq00lwa6aq3wak8jsf.jpg
 
 **Atenção: este post não tem a intenção de se aprofundar a respeito do funcionamento do Git e do GitHub, caso deseje informações mais técnicas, [acesse este outro post](https://medium.com/@Juliobguedes/entendendo-git-883464f379de).**
 
-Criado em 2008 e muito aperfeiçoado desde então, o GitHub não apenas é, atualmente, o mais conhecido serviço web que oferece diversas funcionalidades aplicadas ao Git para hospedagem e versionamento de código-fonte, como também é um grande impulsionador da iniciativa Open Source e do trabalho em equipe. Cada vez mais, a plataforma tem adquirido uma cara de rede social, visando engajar mais pessoas em relação a contribuição em projetos de código aberto, participação em suas respectivas comunidades, além de dar mais visibilidade a tais projetos. Isso foi possível devido a inúmeras funcionalidades adotadas e implementadas pelo GitHub a fim de atingir esses objetivos, e algumas delas serão introduzidas nesse post.
+Criado em 2008 e muito aperfeiçoado desde então, o GitHub não apenas é, atualmente, o mais conhecido serviço web que oferece diversas funcionalidades aplicadas ao Git para hospedagem e versionamento de código-fonte, como também é um grande impulsionador da iniciativa open source e do trabalho em equipe. Cada vez mais, a plataforma tem adquirido uma cara de rede social, visando engajar mais pessoas em relação a contribuição em projetos de código aberto, participação em suas respectivas comunidades, além de dar mais visibilidade a tais projetos. Isso foi possível devido a inúmeras funcionalidades adotadas e implementadas pelo GitHub a fim de atingir esses objetivos, e algumas delas serão introduzidas nesse post.
 
 ![Página inicial do GitHub atualmente](https://thepracticaldev.s3.amazonaws.com/i/ca2pyzgamadnsl53fbgn.png)
 *Screenshot da página inicial do GitHub atualmente*.
+
+## Comunidade open source
+
+Antes de prosseguir no post, é preciso definir um conceito para comunidade ope source. Uma comunidade é formada por **Users**, **Contributors** e **Mantainers**. O grupo de usuários (*users*) é composto por pessoas que vão utilizar um sistema que está sendo desenvolvido em código aberto, e são ativas na comunidade reportando possíveis bugs no desenvolvimento e dando sugestões de melhoria e de novas *features*. Além disso, dependendo da licensa utilizada pelo projeto, usuários podem fazer modificações livremente, por exemplo, alterar partes do sistema para uso pessoal, utilização como componente em outro projeto e até comercializá-lo. Para saber o que pode e o que não pode fazer, é sempre bom checar o arquivo **LICENSE** do repositório e verificar as permissões.
+
+O que diferencia um usuário de um contribuidor (*contributor*) é a efetividade para a organização que encabeça o projeto. O contribuidor levanta discussões mais profundas e úteis para a organização, altera diretamente o código e faz requisições de anexação do seu conteúdo ao original. Os motivos que levam alguém a contribuir com uma organização podem ser diversos: identificação com a organização, aplicação prática de conhecimentos acerca de uma tecnologia, ganhar visibilidade com contribuições úteis e reais, entre outros. Esse é o espírito do open source. Vale ressaltar dois pontos: primeiro, o contribuidor não está vinculado à organização. Isso significa que alguém pode aparecer repentinamente para contribuir e, da mesma forma, pode parar a qualquer momento. Segundo, a organização pode muito bem estabelecer regras para contribuição e é importantíssimo que o contribuidor esteja por dentro de todas elas antes de começar, por isso, ele deve ler bem o que há nos arquivos **README.md**, **CONTRIBUTING.md** e **CODE_OF_CONDUCT.md**, caso existam.
+
+Por fim, temos os mantenedores (*maintainers*). Estes são os admnistradores responsáveis por manter o projeto "vivo" e atualizado, pois eles são de fato membros da organização. Eles devem estar por dentro das discussões que envolvem o projeto, fazer correções de bugs, implementar features, revisar requisições de contribuidores e são os responsáveis por manter a organização dentro do repositório: disposição dos arquivos e diretórios, alocação de *tasks*, lidar com e organizar os tópicos das discussões, entre outras obrigações.
+
+Agora, com o conceito de comunidades open source mais claro, podemos começar a falar sobre as maneiras que o GitHub encontrou para impulsioná-las.
 
 ## Stars e forks
 ![Stars e forks](https://thepracticaldev.s3.amazonaws.com/i/pu4yui075180v6w6k318.png)
@@ -20,7 +30,7 @@ Ao acessar um repositório público no GitHub, você pode dar uma **star**, *fea
 
 ## Pull Requests (PR's) e Issues
 
-A partir de um **fork**, quando terminar de fazer as alterações que julgar necessárias, você pode submeter uma requisição de anexação do seu conteúdo modificado ao conteúdo original do repositório escolhido. Essa requisição é a **pull request**, a forma mais característica de contribuição a um projeto na plataforma, que será revisada um maintainer, um dos administradores daquele repositório (no caso de ser um repositório de uma organização, o maintainer pode ser um dos membros dessa organização).
+A partir de um **fork**, quando terminar de fazer as alterações que julgar necessárias, você pode submeter uma requisição de anexação do seu conteúdo modificado ao conteúdo original do repositório escolhido. Essa requisição é a **pull request**, a forma mais característica de contribuição a um projeto na plataforma, que será revisada um maintainer.
 
 Também é importante ter em mente que uma contribuição para um projeto open source vai além de modificações diretas no código-fonte. Um feedback, alerta de bugs no software que está sendo desenvolvido, discussões a respeito de um novo passo que pode ser tomado em prol do projeto, troca de ideias e sugestões podem impactar profundamente no futuro do projeto e até da organização. Por isso, é extremamente importante que uma organização fique sempre atenta ao que sua comunidade tem a dizer.
 
