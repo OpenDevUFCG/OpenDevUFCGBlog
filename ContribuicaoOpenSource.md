@@ -1,28 +1,28 @@
 ---
-title: Contribuindo para projetos Open Source com Github
+title: Contribuindo para projetos Open Source com GitHub
 published: false
-description: Uma porta de entrada para pessoas que planejam começar a fazer contribuições para organizações Open Source, falando um pouco sobre o que é o Github (uma visão geral sobre o que é a plataforma, sem um aprofundamento muito grande em detalhes técnicos) e como possibilita o crescimento de comunidades open source. Além disso, este post mostra também como ficar atento ao surgimento de novas oportunidades de contribuição em projetos.
-tags: opensource, comunidade, github.
+description: Uma porta de entrada para pessoas que planejam começar a fazer contribuições para organizações open source.
+tags: opensource, comunidade, github, ptbr.
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/16tq00lwa6aq3wak8jsf.jpg
 ---
 
-**Atenção: este post não tem a intenção de se aprofundar a respeito do funcionamento do Git e do Github, caso deseje informações mais técnicas, [acesse este outro post](https://medium.com/@Juliobguedes/entendendo-git-883464f379de).**
+**Atenção: este post não tem a intenção de se aprofundar a respeito do funcionamento do Git e do GitHub, caso deseje informações mais técnicas, [acesse este outro post](https://medium.com/@Juliobguedes/entendendo-git-883464f379de).**
 
-Criado em 2008 e muito aperfeiçoado desde então, o Github não apenas é, atualmente, o mais conhecido serviço web que oferece diversas funcionalidades aplicadas ao Git para hospedagem e versionamento de código-fonte, como também é um grande impulsionador da iniciativa Open Source e do trabalho em equipe. Cada vez mais, a plataforma tem adquirido uma cara de rede social, visando engajar mais pessoas em relação a contribuição em projetos de código aberto, participação em suas respectivas comunidades, além de dar mais visibilidade a tais projetos. Isso foi possível devido a inúmeras funcionalidades adotadas e implementadas pelo Github a fim de atingir esses objetivos, e algumas delas serão introduzidas nesse post.
+Criado em 2008 e muito aperfeiçoado desde então, o GitHub não apenas é, atualmente, o mais conhecido serviço web que oferece diversas funcionalidades aplicadas ao Git para hospedagem e versionamento de código-fonte, como também é um grande impulsionador da iniciativa Open Source e do trabalho em equipe. Cada vez mais, a plataforma tem adquirido uma cara de rede social, visando engajar mais pessoas em relação a contribuição em projetos de código aberto, participação em suas respectivas comunidades, além de dar mais visibilidade a tais projetos. Isso foi possível devido a inúmeras funcionalidades adotadas e implementadas pelo GitHub a fim de atingir esses objetivos, e algumas delas serão introduzidas nesse post.
 
-![Página inicial do Github atualmente](https://thepracticaldev.s3.amazonaws.com/i/ca2pyzgamadnsl53fbgn.png)
-*Screenshot da página inicial do Github atualmente*.
+![Página inicial do GitHub atualmente](https://thepracticaldev.s3.amazonaws.com/i/ca2pyzgamadnsl53fbgn.png)
+*Screenshot da página inicial do GitHub atualmente*.
 
 ## Stars e forks
 ![Stars e forks](https://thepracticaldev.s3.amazonaws.com/i/pu4yui075180v6w6k318.png)
 
-Ao acessar um repositório público no Github, você pode dar uma **star**, *feature* similar às "curtidas" das redes sociais mais famosas, e também pode fazer um **fork**, que consiste na criação de uma cópia independente deste repositório, que contém todo o seu conteúdo, para a sua conta de usuário no Github. Na tela inicial, são mostradas as **stars** e **forks** que as pessoas que você segue dão em repositórios públicos, uma funcionalidade que tem por objetivo a ampliação do alcance dos projetos open source.
+Ao acessar um repositório público no GitHub, você pode dar uma **star**, *feature* similar às "curtidas" das redes sociais mais famosas, e também pode fazer um **fork**, que consiste na criação de uma cópia independente deste repositório, que contém todo o seu conteúdo, para a sua conta de usuário no GitHub. Na tela inicial, são mostradas as **stars** e **forks** que as pessoas que você segue dão em repositórios públicos, uma funcionalidade que tem por objetivo a ampliação do alcance dos projetos open source.
 
 ## Pull Requests (PR's) e Issues
 
 A partir de um **fork**, quando terminar de fazer as alterações que julgar necessárias, você pode submeter uma requisição de anexação do seu conteúdo modificado ao conteúdo original do repositório escolhido. Essa requisição é a **pull request**, que será revisada um maintainer, um dos administradores daquele repositório (no caso de ser um repositório de uma organização, o maintainer pode ser um dos membros dessa organização).
 
-Também é importante ter em mente que uma contribuição para um projeto open source vai além de modificações diretas no código-fonte. Um feedback, alerta de bugs no software que está sendo desenvolvido, discussões a respeito de um novo passo que pode ser tomado em prol do projeto, troca de ideias e sugestões podem impactar profundamente no futuro do projeto e até da organização. Por isso, é extremamente importante que uma organização fique sempre atenta ao que sua comunidade tem a dizer. Tendo em vista esse contexto, o Github disponibiliza as **issues**, um espaço que pode ser utilizado tanto por usuários comuns quanto por administradores, para a finalidade de todos os pontos citados e também para priorização e organização das tarefas a serem desenvolvidas.
+Também é importante ter em mente que uma contribuição para um projeto open source vai além de modificações diretas no código-fonte. Um feedback, alerta de bugs no software que está sendo desenvolvido, discussões a respeito de um novo passo que pode ser tomado em prol do projeto, troca de ideias e sugestões podem impactar profundamente no futuro do projeto e até da organização. Por isso, é extremamente importante que uma organização fique sempre atenta ao que sua comunidade tem a dizer. Tendo em vista esse contexto, o GitHub disponibiliza as **issues**, um espaço que pode ser utilizado tanto por usuários comuns quanto por administradores, para a finalidade de todos os pontos citados e também para priorização e organização das tarefas a serem desenvolvidas.
 
 ![Submetendo uma nova issue](https://thepracticaldev.s3.amazonaws.com/i/c7hx2r6s9rhuauhmbsx7.png)
 
@@ -39,9 +39,9 @@ Depois de se informar sobre esse projeto e decidir que quer contribuir com ele, 
 
 Você pode contribuir com novas ideias nas discussões a respeito de alguma das issues ou fazer uma PR que a resolva. Posteriormente, quando estiver mais à vontade na organização, você pode abrir novas issues ou tentar resolver algumas mais complexas.
 
-## Explorando o Github
+## Explorando o GitHub
 
-Outra forma de ter acesso a novidades de projetos open source é acessando o **[Explore](https://github.com/explore)**, uma página do Github que além de mostrar projetos recomendados, como mostrado no tópico anterior, também possibilita uma conexão entre as comunidades desses projetos. Você pode explorar conteúdos de curadores, buscar projetos por tópicos e labels, ter acesso a informações de posts, artigos, eventos e meetups relacionados com as tecnologias recomendadas para você, entre outras informações.
+Outra forma de ter acesso a novidades de projetos open source é acessando o **[Explore](https://github.com/explore)**, uma página do GitHub que além de mostrar projetos recomendados, como mostrado no tópico anterior, também possibilita uma conexão entre as comunidades desses projetos. Você pode explorar conteúdos de curadores, buscar projetos por tópicos e labels, ter acesso a informações de posts, artigos, eventos e meetups relacionados com as tecnologias recomendadas para você, entre outras informações.
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/ngl2p0mpmwzd6x8dzziq.png)
 
