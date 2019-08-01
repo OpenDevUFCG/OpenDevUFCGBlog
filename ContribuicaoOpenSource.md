@@ -57,6 +57,6 @@ Outra forma de ter acesso a novidades de projetos open source é acessando o **[
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/ngl2p0mpmwzd6x8dzziq.png)
 
-Essas são algumas das principais maneiras que o GitHub encontrou para dar visibilidade a projetos de código aberto e fomentar a colaboração dos desenvolvedores para estes. Você pode se aprofundar mais a respeito do funcionamento do Git e do GitHub e obter informações mais técnicas [neste outro post](https://medium.com/@Juliobguedes/entendendo-git-883464f379de), e começar a apoiar o open source agora mesmo!
+Essas são algumas das principais maneiras que o GitHub encontrou para dar visibilidade a projetos de código aberto e fomentar a colaboração dos desenvolvedores para eles. Você pode se aprofundar mais a respeito do funcionamento do Git e do GitHub e obter informações mais técnicas [neste outro post](https://medium.com/@Juliobguedes/entendendo-git-883464f379de), e começar também a apoiar o open source agora mesmo!
 
 Muito obrigado pela leitura, fique atento a mais postagens da OpenDev UFCG aqui no Dev.to! Esperamos encontrá-lo por aqui novamente. :smile:
