@@ -30,13 +30,15 @@ Ao acessar um repositório público no GitHub, você pode dar uma **star**, *fea
 
 ## Pull Requests (PR's) e Issues
 
-A partir de um **fork**, quando terminar de fazer as alterações que julgar necessárias, você pode submeter uma requisição de anexação do seu conteúdo modificado ao conteúdo original do repositório escolhido. Essa requisição é a **pull request**, a forma mais característica de contribuição a um projeto na plataforma, que será revisada por um maintainer.
+A partir de um **fork**, quando terminar de fazer as alterações que julgar necessárias, você pode submeter uma requisição de anexação do seu conteúdo modificado ao conteúdo original do repositório escolhido. Essa requisição é a **pull request**, a forma mais característica de contribuição a um projeto na plataforma, que será revisada por um maintainer. Observe abaixo o processo para abrir uma nova PR:
+
+![Submetendo uma nova PR](https://i.imgur.com/DsAq3NW.gif)
 
 Também é importante ter em mente que uma contribuição para um projeto open source vai além de modificações diretas no código-fonte. Um feedback, alerta de bugs no software que está sendo desenvolvido, discussões a respeito de um novo passo que pode ser tomado em prol do projeto, troca de ideias e sugestões podem impactar profundamente no futuro do projeto e até da organização. Por isso, é extremamente importante que uma organização fique sempre atenta ao que sua comunidade tem a dizer.
 
 Tendo em vista esse contexto, o GitHub disponibiliza as **issues**, um espaço que pode ser utilizado tanto por usuários comuns quanto por maintainers, para a finalidade de todos os pontos citados e também para priorização e organização das tarefas a serem desenvolvidas. Observe abaixo o processo para abrir uma nova issue:
 
-![Submetendo uma nova issue](https://thepracticaldev.s3.amazonaws.com/i/c7hx2r6s9rhuauhmbsx7.png)
+![Submetendo uma nova issue](https://i.imgur.com/n0TkrzC.gif)
 
 ## Descobrindo repositórios e contribuindo
 
