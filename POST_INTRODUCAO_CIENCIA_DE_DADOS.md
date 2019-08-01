@@ -18,7 +18,7 @@ As definições de ciência e dados (ou *data science*) compõem perfeitamente u
 
 A ciência pode ser descrita como *"o esforço para descobrir e aumentar o conhecimento humano de como o universo funciona"*.
 
-Já os dados *"são simples observações sobre o estado do mundo"*. Esse estado pode ser qualquer coisa: curtidas de uma foto no facebook, o gênero de uma música, número de commits em um dia no GitHub, a quantidade de sanitários de uma escola, enfim... *qualquer coisa mesmo*.
+Já os dados *"são simples observações sobre o estado do mundo"*. Esse estado pode ser qualquer coisa: curtidas de uma foto no Facebook, o gênero de uma música, número de commits em um dia no GitHub, a quantidade de sanitários de uma escola, enfim... *qualquer coisa mesmo*.
 
 Então, um significado para ciência de dados poderia ser *o esforço para explorar, descobrir e extrair conhecimento sobre um assunto através de observações.*. Na prática, esse conhecimento geralmente se dá investigando, inferindo através de estatística e/ou tentando adivinhar uma "função mágica" que explique os dados a partir de aprendizagem de máquina (ou *machine learning*).
 
