@@ -6,7 +6,7 @@ tags: data-science, ciencia-de-dados, ptbr
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/saia38h9cnyql3ggyd06.jpg
 ---
 
-# Indrodução a Ciência de Dados
+# Introdução à Ciência de Dados
 
 Oi meninis, turo bom?
 
