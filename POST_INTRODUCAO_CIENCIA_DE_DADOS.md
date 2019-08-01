@@ -78,7 +78,7 @@ Você pode cursar as disciplinas ofertadas pelo curso que relacionadas à ciênc
  * Ciência de Dados Descritiva: ofertada no 1º semestre do ano letivo pelo professor Nazareno <3 com ênfase na criação de relatórios exploratórios utilizando estatística sobre assuntos muito legais, como música, cinema e séries;
  * Ciência de Dados Preditiva: ofertada no 2º semestre do ano letivo pelo professor Leandro <3 com foco em Machine Learning e um pouco de Deep Learning;
  * Visualização da Informação: ofertada no 2º semestre do ano letivo pelo professor Nazareno <3 com ênfase em técnicas de melhores formas de visualizar a informação;
- * Recuperação da Informação: ofertada no 1º semestre do ano letivo pelo professor Leandro <3 com foco em processamento de linguagem natural, sistemas de recomendação, análise de sentimento, etc.;
+ * Recuperação da Informação: ofertada no 1º semestre do ano letivo pelo professor Leandro <3 com foco em processamento de linguagem natural, sistemas de recomendação, análise de sentimento, etc.
 
 ### 3.3. Cursos online  
 
