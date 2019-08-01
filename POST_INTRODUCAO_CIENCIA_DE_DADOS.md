@@ -84,6 +84,14 @@ Você pode cursar as disciplinas ofertadas pelo curso que relacionadas à ciênc
 
 Uma outra forma bem eficiente de aprender ciência de dados é fazer cursos online em plataformas como [Udacity](https://www.udacity.com/), [Coursera](https://www.coursera.org/), [Udemy](https://www.udemy.com/), entre outros.
 
-## 4. Obrigada!
+Nesta [planilha](https://docs.google.com/spreadsheets/d/13hP5jw5ahp0ZJMFkDZdLh0g-Ws7i_WM18ZfY7HoV0Rs/edit?usp=sharing) estão alguns cursos recomendados por Marianne Linhares, além de diversos outros materiais para quem se interessou e quer saber mais sobre o assunto.
+
+## 4. Foi eterno enquanto durou...
+
+... mas o post chegou ao fim! :( 
+  
+Eu amei fazê-lo e espero ter apresentado o básico de ciência de dados de forma clara e compreensível. Qualquer dúvida, reclamação ou sugestão, fique à vontade para `adicionar comentários neste post` ou conversar comigo fora dele: é só pesquisar 'hadrizia' nas plataformas, provavelmente serei a primeira (e única) a aparecer haha.
+
+## 5. Obrigada!
 
 Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no [Twitter](https://twitter.com/OpenDevUFCG), no [Instagram](https://www.instagram.com/OpenDevUFCG/) e, claro, no [GitHub](https://github.com/OpenDevUFCG).
