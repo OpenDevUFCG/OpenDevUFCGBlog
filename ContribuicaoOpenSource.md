@@ -2,7 +2,7 @@
 title: Contribuindo para projetos open source com GitHub
 published: false
 description: Uma porta de entrada para pessoas que planejam começar a fazer contribuições para organizações open source.
-tags: opensource, comunidade, github, ptbr.
+tags: opensource, community, github, ptbr.
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/16tq00lwa6aq3wak8jsf.jpg
 ---
 
