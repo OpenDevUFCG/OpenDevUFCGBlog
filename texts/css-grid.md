@@ -12,9 +12,7 @@ Você conhece o CSS Grid? Se não, você está perdendo uma ótima ferramenta do
 
 # Um pouco sobre caixas
 
-Pra começar, você tem que abstrair que todo elemento HTML está envolvido por uma caixa que tanto o delimita como também o seu conteúdo (para saber mais, acesse [esse link](https://tableless.github.io/iniciantes/manual/css/box-model.html) e [esse link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model)). Na maioria das vezes, vão existir elementos que têm dentro do seu conteúdo outros elementos HTML, ou seja, caixas dentro de caixas, e o que o Grid faz é simplesmente organizar essas caixas de acordo com sua vontade.
-
-Como ele faz isso? Ele define uma malha quadriculada e atribui espaços dessa malha a cada elemento HTML.
+Pra começar, você tem que abstrair que todo elemento HTML está envolvido por uma caixa que tanto o delimita como também o seu conteúdo (para saber mais, acesse [esse link](https://tableless.github.io/iniciantes/manual/css/box-model.html) e [esse link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model)). Na maioria das vezes, vão existir elementos que têm dentro do seu conteúdo outros elementos HTML, ou seja, caixas dentro de caixas, e o que o Grid faz é simplesmente organizar essas caixas de acordo com sua vontade. Como ele faz isso? Ele define uma malha quadriculada e atribui espaços dessa malha a cada elemento HTML.
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/58gv9hkeys3de94e0amo.png)
 
@@ -121,9 +119,7 @@ Agora a primeira coluna tem o dobro do tamanho das outras colunas. Simples, né?
 
 Em nenhum desses exemplos utilizamos o `grid-template-areas`, no entanto, todos funcionaram bem. Funcionam justamente por causa da dedução do CSS Grid que mencionei anteriormente, pois ele atribui sequencialmente as propriedades da malha a cada filho.
 
-No entanto, caso queiramos alterar a ordem das caixas, precisamos alterar o HTML. Num exemplo simples como esse, basta trocar a ordem das linhas das caixas e cada conteúdo será alterado. No entanto, em projetos complexos, se torna inviável alterar o HTML. Para a nossa sorte existe o `grid-template-areas`.
-
-Nele você define, literalmente, áreas que a malha terá. Como exemplo:
+No entanto, caso queiramos alterar a ordem das caixas, precisamos alterar o HTML. Num exemplo simples como esse, basta trocar a ordem das linhas das caixas e cada conteúdo será alterado. No entanto, em projetos complexos, se torna inviável alterar o HTML. Para a nossa sorte existe o `grid-template-areas`. Nele você define, literalmente, áreas que a malha terá. Como exemplo:
 
 
 ```css
