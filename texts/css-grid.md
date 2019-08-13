@@ -222,7 +222,9 @@ As áreas do grid não possibilitam somente a mudança de forma facil de element
 
 Para você entender melhor, imagine que temos agora que fazer uma pagina principal que tenha uma barra lateral, um conteúdo, um cabeçalho e um rodapé. O cabeçalho deve ficar sempre em cima, o rodapé sempre em baixo, a barra lateral no lado esquerdo e o conteúdo principal no lado direito. O conteúdo principal é três vezes maior que a barra lateral em largura e quatro vezes maior que o cabeçalho e o rodapé em altura. 
 
-Parece complexo né? É não, isso fica fácil de organizar com grid e com grid-areas. Primeiro definimos todos os elementos:
+Parece complexo né? É não, isso fica fácil de organizar com grid e com grid-areas. Aconselho você a tentar fazer esse exemplo primeiro antes de ver o jeito que eu fiz. Já fez? Ótimo! Não conseguiu? Sem problemas, a gente tá aqui pra isso! Nem tentou? Tou de olho hein!? 
+
+Vamos a resolução primeiro definimos todos os elementos:
 
 ```html
 <pagina-principal>
