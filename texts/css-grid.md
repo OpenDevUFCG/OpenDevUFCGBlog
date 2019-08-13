@@ -15,12 +15,12 @@ Você conhece o CSS Grid? Se não, você está perdendo uma ótima ferramenta do
 Pra começar, você tem que abstrair que todo elemento HTML está envolvido por uma caixa que tanto o delimita como também o seu conteúdo (para saber mais, acesse [esse link](https://tableless.github.io/iniciantes/manual/css/box-model.html) e [esse link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box_model)). Na maioria das vezes, vão existir elementos que têm dentro do seu conteúdo outros elementos HTML, ou seja, caixas dentro de caixas, e o que o Grid faz é simplesmente organizar essas caixas de acordo com sua vontade. Como ele faz isso? Ele define uma malha quadriculada e atribui espaços dessa malha a cada elemento HTML.
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/58gv9hkeys3de94e0amo.png)
-*Fonte: [SparkBox](https://seesparkbox.com/foundry/css_grid_layout_guide_with_flexbox_fallbacks)*
+<figcaption>Fonte: <a href="https://seesparkbox.com/foundry/css_grid_layout_guide_with_flexbox_fallbacks">SparkBox</a></figcaption>
 
-A malha é definida por trackers que são basicamente delimitadores das linhas e colunas, que são esses marcadores brancos:
+A malha é definida por trackers, que são basicamente delimitadores das linhas e colunas, representados por esses marcadores brancos:
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/kldxli86fo9f6mcgoi4r.jpg)
-*Fonte: [SparkBox](https://seesparkbox.com/foundry/css_grid_layout_guide_with_flexbox_fallbacks)*
+<figcaption>Fonte: <a href="https://seesparkbox.com/foundry/css_grid_layout_guide_with_flexbox_fallbacks">SparkBox</a></figcaption>
 
 A linha é a área entre um tracker e outro de forma vertical, ou seja, cada novo espaço na altura da malha. Já a coluna é a área entre um tracker e outro de forma horizontal, ou seja, cada novo espaço no comprimento da malha.
 
@@ -30,7 +30,7 @@ Além disso, cada caixa pintada da imagem é uma área do grid onde ficará um e
 
 # Colocando em prática
 
-Só pra você saber, os exemplos nesse post vão seguir uma estrutura onde mostrarei sempre um código css e uma aplicação desse código num codepen. Além disso, existirá um fluxo onde cada código será usado como base para os códigos subsequentes.
+Só pra você saber, os exemplos nesse post vão seguir uma estrutura onde mostrarei sempre um código CSS e uma aplicação desse código num codepen. Além disso, existirá um fluxo no qual cada código será usado como base para os códigos subsequentes.
 
 ## Preparando o terreno
 
@@ -60,7 +60,7 @@ Para facilitar o entendimento, pode-se usar tags HTML personalizadas. Segue o ex
 </caixa-grande>
 ```
 
-Para começar a utilização do grid, você precisa apenas definir a propriedade `display: grid` no elemento que desejar, no caso iremos utilizar essa propriedade na `caixa-grande` já que queremos organizar o que tem dentro dela: 
+Para começar a utilização do grid, você precisa apenas definir a propriedade `display: grid` no elemento que desejar. No caso iremos utilizar essa propriedade na `caixa-grande`, já que queremos organizar o que tem dentro dela: 
 
 ```css
 caixa-grande {
@@ -77,7 +77,7 @@ Facil, né? Mas calma, ainda não temos nada pronto. O que foi definido nesse CS
 
 ## Organização básica
 
-Você deve ter notado que a malha foi definida de forma automática onde cada caixa menor foi colocada em uma linha da malha, ou seja, um abaixo do outro. Implicitamente, ao definir o `display: grid` você define algumas outras propriedades padrões do grid ao elemento. A propriedade responsável por organizar o grid desse modo é a [grid-auto-flow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid-auto-flow) que é definida de forma padrão como `grid-auto-flow: row`. Ou seja, o fluxo automático de organização do grid está definido como linha. Assim, a cada novo filho adicionado, ele vai ser posto numa nova linha.
+Você deve ter notado que a malha foi definida de forma automática onde cada caixa menor foi colocada em uma linha da malha, ou seja, um abaixo do outro. Implicitamente, ao definir o `display: grid`, você define algumas outras propriedades padrões do grid ao elemento. A propriedade responsável por organizar o grid desse modo é a [grid-auto-flow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid-auto-flow), que é definida de forma padrão como `grid-auto-flow: row`. Ou seja, o fluxo automático de organização do grid está definido como linha. Assim, a cada novo filho adicionado, ele vai ser posto numa nova linha.
 
 Agora imagine que queiramos organizar os elementos em colunas ao invés de linhas, ou seja, um ao lado do outro ao invés de um abaixo do outro. Basta modificar essa propriedade da seguinte forma:
 
@@ -89,17 +89,17 @@ caixa-grande {
 ```
 {% codepen https://codepen.io/pedroespindula/pen/qeLPzx %}
 
-Nesse exemplo estamos dizendo literalmente ao elemento "Use o grid mas organize essas caixas em colunas".
+Nesse exemplo estamos dizendo literalmente ao elemento "Use o grid, mas organize essas caixas em colunas".
 
 ## Organização com grid-template
 
-No exemplo anterior deixamos o trabalho da definição da malha todo para o grid de forma automatica. Mas e se quisermos definir uma malha personalizada? Para isso, precisamos definir o `grid-template` no elemento HTML de sua escolha. Nessa malha você vai definir três coisas: as colunas (columns), as linhas (rows) e as áreas (areas) para colocar o conteúdo da caixa que você escolher.
+No exemplo anterior deixamos o trabalho da definição da malha todo para o grid de forma automática. Mas e se quisermos definir uma malha personalizada? Para isso, precisamos definir o `grid-template` no elemento HTML de sua escolha. Nessa malha você vai definir três coisas: as colunas (columns), as linhas (rows) e as áreas (areas) para colocar o conteúdo da caixa que você escolher.
 
-Lembra da definição de linhas, colunas e áreas que eu dei la em cima? Pronto, você vai fazer seguir esses conceitos para definir sua malha.
+Lembra da definição de linhas, colunas e áreas que eu dei lá em cima? Pronto, você vai fazer seguir esses conceitos para definir sua malha.
 
 ## Codificando
 
-Vamos para um exemplo concreto. Imagine que você não queira utilizar o `grid-auto-flow` mas queira todas as caixas uma do lado da outra numa unica linha. Já que temos seis caixas pequenas, temos que definir seis colunas e uma linha, desse modo:
+Vamos para um exemplo concreto. Imagine que você não queira utilizar o `grid-auto-flow`, mas queira todas as caixas uma do lado da outra numa unica linha. Já que temos seis caixas pequenas, temos que definir seis colunas e uma linha, desse modo:
 
 ```css
 caixa-grande {
@@ -111,7 +111,7 @@ caixa-grande {
 
 {% codepen https://codepen.io/pedroespindula/pen/MNLZEV %}
 
-Já que temos apenas uma linha, não precisamos defini-la explicitamente por isso, para facilitar, a definição pode ser feita desse modo:
+Já que temos apenas uma linha, não precisamos defini-la explicitamente. Por isso, para facilitar, a definição pode ser feita desse modo:
 
 ```css
 caixa-grande {
@@ -122,10 +122,10 @@ caixa-grande {
 
 {% codepen https://codepen.io/pedroespindula/pen/VogNKJ %}
 
-Além da omissão do `grid-template-rows` utilizamos a função `repeat`. O `repeat` é utilizado para repetir várias vezes a quantidade de medida passada. Nesse caso, repetimos seis vezes a medida de `1fr`, já que todas as colunas teriam o mesmo tamanho de 1fr. O repeat é uma função muito poderosa e será abordada de forma mais aprofundada em outro post.
+Além da omissão do `grid-template-rows`, utilizamos a função `repeat`. O `repeat` é utilizado para repetir várias vezes a quantidade de medida passada. Nesse caso, repetimos seis vezes a medida de `1fr`, já que todas as colunas teriam o mesmo tamanho de 1fr. O repeat é uma função muito poderosa e será abordada de forma mais aprofundada em outro post.
 
 
-Agora se quisermos uma malha 3x2? Continua muito simples:
+Agora, e se quisermos uma malha 3x2? Continua muito simples:
 
 ```css
 caixa-grande {
@@ -218,13 +218,13 @@ caixa-grande {
 
 {% codepen https://codepen.io/pedroespindula/pen/YzKwZzR %}
 
-As áreas do grid não possibilitam somente a mudança de forma facil de elementos HTML de posição. A forma mais poderosa que ele pode ser usada é para a definição de malhas complexas. Uma coisa que não tinhamos feito antes é usar mais de uma vez uma área na definição do `grid-template-areas`, mas esse é o motivo principal de usarmos o grid.
+As áreas do grid não possibilitam somente a mudança fácil da posição de elementos HTML. A forma mais poderosa que ele pode ser usada é para a definição de malhas complexas. Uma coisa que não tínhamos feito antes é usar mais de uma vez uma área na definição do `grid-template-areas`, mas esse é o motivo principal de usarmos o grid.
 
-Para você entender melhor, imagine que temos agora que fazer uma pagina principal que tenha uma barra lateral, um conteúdo, um cabeçalho e um rodapé. O cabeçalho deve ficar sempre em cima, a barra lateral no lado esquerdo, o conteúdo principal no lado direito e o rodapé sempre em baixo da barra lateral. O conteúdo principal é três vezes maior que a barra lateral em largura e cinco vezes maior que o cabeçalho e o rodapé em altura. 
+Para você entender melhor, imagine que temos agora que fazer uma página principal que tenha uma barra lateral, um conteúdo, um cabeçalho e um rodapé. O cabeçalho deve ficar sempre em cima, a barra lateral no lado esquerdo, o conteúdo principal no lado direito e o rodapé sempre em baixo da barra lateral. O conteúdo principal é três vezes maior que a barra lateral em largura e cinco vezes maior que o cabeçalho e o rodapé em altura. 
 
-Parece complexo né? É não, isso fica fácil de organizar com grid e com grid-areas. Aconselho você a tentar fazer esse exemplo primeiro antes de ver o jeito que eu fiz. Já fez? Ótimo! Não conseguiu? Sem problemas, a gente tá aqui pra isso! Nem tentou? Tou de olho hein!? 
+Parece complexo, né? Não é; isso fica fácil de organizar com grid e com grid-areas. Aconselho você a tentar fazer esse exemplo primeiro antes de ver o jeito que eu fiz. Já fez? Ótimo! Não conseguiu? Sem problemas, a gente tá aqui pra isso! Nem tentou? Tô de olho, hein!? 
 
-Vamos a resolução primeiro definimos todos os elementos:
+Vamos à resolução: primeiro, definimos todos os elementos:
 
 ```html
 <pagina-principal>
@@ -243,7 +243,7 @@ pagina-principal {
 }
 ```
 
-Eu normalmente defino o `grid-template-areas` primeiro pois assim tenho uma visualização melhor do que estou tentando fazer:
+Eu normalmente defino o `grid-template-areas` antes, pois assim tenho uma visualização melhor do que estou tentando fazer:
 ```css
 pagina-principal {
   display: grid;
@@ -254,7 +254,7 @@ pagina-principal {
 }
 ```
 
-Depois podemos atribuir cada área a um elemento filho:
+Depois, podemos atribuir cada área a um elemento filho:
 
 ```css
 cabecalho {
@@ -275,7 +275,7 @@ rodape {
 
 ```
 
-Mas ainda falta definir os tamanhos que foram pedidos, pra isso usamos a definição das linhas e das colunas. Como o conteúdo principal vai ser três vezes maior que a barra lateral, teremos uma coluna três vezes maior que a outra, e como o conteúdo principal vai ser quatro vezes maior que o cabeçalho e o rodapé, a linha do conteúdo principal vai ter que ser quatro vezes maior que as linhas do cabeçalho e do rodapé:
+Mas ainda falta definir os tamanhos que foram pedidos; pra isso, usamos a definição das linhas e das colunas. Como o conteúdo principal vai ser três vezes maior que a barra lateral, teremos uma coluna três vezes maior que a outra, e como o conteúdo principal vai ser quatro vezes maior que o cabeçalho e o rodapé, a linha do conteúdo principal vai ter que ser quatro vezes maior que as linhas do cabeçalho e do rodapé:
 
 ```css
 pagina-principal {
@@ -291,7 +291,7 @@ pagina-principal {
 
 {% codepen https://codepen.io/pedroespindula/pen/gOYPmrN %}
 
-Pronto, temos a nossa pagina principal feita!
+Pronto, temos a nossa página principal feita!
 
 # Hora de experimentar
 
