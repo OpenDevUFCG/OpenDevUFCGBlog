@@ -220,7 +220,7 @@ caixa-grande {
 
 As áreas do grid não possibilitam somente a mudança de forma facil de elementos HTML de posição. A forma mais poderosa que ele pode ser usada é para a definição de malhas complexas. Uma coisa que não tinhamos feito antes é usar mais de uma vez uma área na definição do `grid-template-areas`, mas esse é o motivo principal de usarmos o grid.
 
-Para você entender melhor, imagine que temos agora que fazer uma pagina principal que tenha uma barra lateral, um conteúdo, um cabeçalho e um rodapé. O cabeçalho deve ficar sempre em cima, o rodapé sempre em baixo, a barra lateral no lado esquerdo e o conteúdo principal no lado direito. O conteúdo principal é três vezes maior que a barra lateral em largura e quatro vezes maior que o cabeçalho e o rodapé em altura. 
+Para você entender melhor, imagine que temos agora que fazer uma pagina principal que tenha uma barra lateral, um conteúdo, um cabeçalho e um rodapé. O cabeçalho deve ficar sempre em cima, a barra lateral no lado esquerdo, o conteúdo principal no lado direito e o rodapé sempre em baixo da barra lateral. O conteúdo principal é três vezes maior que a barra lateral em largura e cinco vezes maior que o cabeçalho e o rodapé em altura. 
 
 Parece complexo né? É não, isso fica fácil de organizar com grid e com grid-areas. Aconselho você a tentar fazer esse exemplo primeiro antes de ver o jeito que eu fiz. Já fez? Ótimo! Não conseguiu? Sem problemas, a gente tá aqui pra isso! Nem tentou? Tou de olho hein!? 
 
@@ -250,7 +250,7 @@ pagina-principal {
   grid-template-areas: 
     "cabecalho cabecalho"
     "barra-lateral conteudo-principal"
-    "rodape rodape";
+    "rodape conteudo-principal";
 }
 ```
 
@@ -285,7 +285,7 @@ pagina-principal {
   grid-template-areas: 
     "cabecalho cabecalho"
     "barra-lateral conteudo-principal"
-    "rodape rodape";
+    "rodape conteudo-principal";
 }
 ```
 
