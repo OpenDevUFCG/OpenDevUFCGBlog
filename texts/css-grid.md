@@ -201,9 +201,10 @@ caixa-pequena6 {
 
 {% codepen https://codepen.io/pedroespindula/pen/VwZePoG %}
 
+Só uma observação, a definição da propriedade do `grid-area` é sem aspas mesmo, se você colocar a área envolta de aspas ele não vai funcionar.
+
 Tudo pronto! Essa definição ficou igual ao exemplo anterior onde não tinhamos o `grid-template-areas`, mas imagine que queiramos trocar a posição da `caixa-pequena2` pela `caixa-pequena4`. Você precisa apenas alterar a ordem no `grid-template-areas`, modificando assim apenas o CSS sem mexer no HTML, desse modo:
 
-Só uma observação, a definição da propriedade do `grid-area` é sem aspas, se você colocar a área envolta de aspas ele não vai funcionar.
 
 ```css
 caixa-grande {
