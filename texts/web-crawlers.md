@@ -74,7 +74,11 @@ Usando o inspetor do meu browser para analisar quais os nós que contém esse li
 
 Sendo assim, podemos informar para o **scrapy** que ele deve obter algo como:
 `div.mini_clard_grid-song a::attr(href)`
-Isso indica que queremos os links, que são filhos da classe, por isso o `.` como em CSS, `mini_card_grid-song`. Assim, podemos construir nosso método:
+Isso indica que queremos os links, que são filhos da classe, `mini_card_grid-song`, por isso o `.` como em CSS. Além disso, adicionamos esse trecho `::attr(href)` depois da tag `a`, isso porque se passasemos apenas a tag, pegariamos o nó html e nao apenas o link.
+
+Para entender melhor sobre os seletores CSS, veja [esse link](https://docs.scrapy.org/en/latest/topics/selectors.html) da documentaçao.
+
+Assim, podemos construir nosso método:
 
 ```python
  def parse(self, response):
@@ -83,7 +87,7 @@ Isso indica que queremos os links, que são filhos da classe, por isso o `.` com
             yield scrapy.Request(url=song_url, callback=self.parse_lyrics_page)
 ```
 
-O método é composto por um parâmetro **response**, que indica o conteúdo obtido após o crawler ter requisitado nossa url inicial. Feito isso, temos as urls das músicas sendo obtidas a partir do metodo do nosso seletor, é importante ressaltar que usamos o `getAll()`, porque queremos extrair **todos** os seletores que casarem com o padrão que passamos, mas as vezes estamos interessados apenas na primeira ocorrencia e podemos fazer uso do `get`. Uma vez que temos as urls, fazemos uma requisição, passando a url e uma **callback**, que é uma função que será executada após o crawler fazer download da url que passamos.
+O método é composto por um parâmetro **response**, que indica o conteúdo obtido após o crawler ter requisitado nossa url inicial. Feito isso, temos as urls das músicas sendo obtidas a partir do metodo do nosso seletor, essa lista de urls que o crawler requisitara é chamada de **frontier**. É importante ressaltar que usamos o `getAll()`, porque queremos extrair **todos** os seletores que casarem com o padrão que passamos, mas as vezes estamos interessados apenas na primeira ocorrencia e podemos fazer uso do `get`. Uma vez que temos as urls, fazemos uma requisição, passando a url e uma **callback**, que é uma função que será executada após o crawler fazer download da url que passamos.
 
 Ótimo, conseguimos alcançar a página das nossas músicas, mas e depois que chegamos nela o que faremos? Seguimos um processo muito parecido com a diferença de que agora, ao invés de tentarmos extrair links, poderemos extrair nossa informação, como visto o método que será executado após ele consultar a página da música é o `parse_lyrics_page`, então adicione esse trecho no seu arquivo:
 
@@ -122,15 +126,16 @@ O método é composto por um parâmetro **response**, que indica o conteúdo obt
 
 Muita coisa, né? mas vamos por partes, como diria Jack.
 
-Para extração das informações básicas como os artistas, a letra o título, as curiosidades(especificadas por meio do atributo metadata), não é muito diferente do que fizemos na extração dos links, já que só precisamos fornecer o seletor e obter a informação, só temos a diferença de que adicionamos o `::text`, isso acontece, porque se não utilizarmos ele, extraíriamos a informação com as tags html, não só o conteúdo que ele envolve, então removemos esse ruído, através dele.
+Para extração das informações básicas como os artistas, a letra o título, as curiosidades(especificadas por meio do atributo metadata), não é muito diferente do que fizemos na extração dos links, já que só precisamos fornecer o seletor e obter a informação.
 
-Você deve está se perguntando, por que as anotações tem um comportamento diferente, olhando a página, você verá que os nós que deveriam conter as anotações para as músicas, contém apenas um identificador, que redirecionam pra outra página, que possue o conteúdo delas. Então, o que estamos fazendo é, primeiro, obtendo esses ids, e para cada id obtido, concatenando a nossa url inicial:
+No entanto, as anotações seguem um comportamento diferente, olhando a página, você verá que os nós que deveriam conter as anotações para as músicas, contém apenas um identificador, que redirecionam pra outra página, que possue o conteúdo delas. Então, o que estamos fazendo é, primeiro, obtendo esses ids, e para cada id obtido, concatenando a nossa url inicial:
 `urljoin(response.url, annotation_id)`
 
 E em seguida, fazemos uma requisição para cada um deles, mas espere, essa requisição tem algo que ainda não vimos antes, um parâmetro chamado `meta`.
+
 O `meta` é a forma que o scrapy provê para que consigamos nos comunicar entre uma página e outra, então, o que estamos querendo dizer, é que toda vez que ele consultar as páginas das anotações, leve consigo as informações que já extraímos dessa, isso será útil, para merjamos os dois objetos e retornamos os resultados.
 
-Agora que você está na página de anotações, encontre os seletores das anotações e retorne o \resultado, e pronto você terá feito o crawler. Como mostra o trecho abaixo:
+Agora que você está na página de anotações, encontre os seletores das anotações e retorne o resultado, e pronto você terá feito o crawler. Como mostra o trecho abaixo:
 
 ```python
     def parse_annotation_page(self, response):
@@ -143,8 +148,25 @@ Agora que você está na página de anotações, encontre os seletores das anota
     return item
 ```
 
+## Considerações finais
 
-## Extraindo metadados
+Até qui você ja aprendeu os conceitos basicos para construir um crawler, a medida que seu projeto expadir você precisara se preocupar com algumas outras coisas como *politeness policies*, porque se ficarmos fazermos muitas requisicoes pra um site, podemos sobrecarregar o mesmo, e torna-lo indisponivel por algum tempo, leitura de sitemaps, para garantir que o crawler consiga obter efetivamente certos links que a pagina acredita ser essencial, além de varias outras tecnicas.
 
+Mas agora que voce ja sabe o basico para fazer um, me conta nos comentarios alguma ideia que você pensa em construir! E se tiver qualquer dúvida, reclamação ou sugestão, fique à vontade para adicionar comentários neste post ou trocar uma ideia comigo fora dele, minhas redes sociais estao mapeadas no meu perfil.
 
 ## Referências
+
+### Tutoriais
+
+[Documentacão do Scrapy](https://docs.scrapy.org/en/latest/intro/overview.html)  
+[Fazendo web crawlers em Python - Inglês](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)  
+[Utilizando o Scrapy do Python para monitoramento em sites de notícias - PTBR](https://medium.com/@marlessonsantana/utilizando-o-scrapy-do-python-para-monitoramento-em-sites-de-not%C3%ADcias-web-crawler-ebdf7f1e4966)
+
+### Livros
+
+[Learning Scrapy](https://www.amazon.com.br/Learning-Scrapy-Dimitris-Kouzis-Loukas/dp/1784399787)  
+[Web Scraping with Python](https://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291/ref=as_li_ss_tl?ie=UTF8&qid=1469961194&sr=8-1&keywords=web+scraping+with+python&linkCode=sl1&tag=scraping06-20&linkId=eda03663399eeff90133094d677e4cd4)
+
+## Obrigada
+
+Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no Twitter, no Instagram e, claro, no GitHub.
