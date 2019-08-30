@@ -12,13 +12,13 @@ Você já quis obter dados de um serviço que não disponibiliza uma API? ou se 
 ![](https://media.giphy.com/media/l0IyiADcZ3Ecjrn5m/giphy.gif)
 
 Um **web crawler** pode ser definido como um script ou programa que é utilizado para acessar um website, extrair conteúdo e descobrir páginas relacionadas ao mesmo, repetindo o processo até que não existam mais páginas a serem pesquisadas.
-Eles são muito importantes pois as *engines* de busca, usam os crawlers para retornar resultados eficientes, devido a isso, frequentemente algumas pessoas se referem a eles como **bot da internet**. De uma forma superficial, você pode pensar no crawler como um carinha que faz requisições para as páginas que ele encontra e a medida que ele percorre essas páginas faz o *parse* do seu html.
+Eles são muito importantes pois as *engines* de busca, usam os crawlers para retornar resultados eficientes, devido a isso, frequentemente algumas pessoas se referem a eles como **bots da internet**. De uma forma superficial, você pode pensar no crawler como um carinha que faz requisições para as páginas que ele encontra e a medida que ele percorre essas páginas faz o *parse* do seu html.
 
 ## Pré-Requisitos
 
 Para conseguir reproduzir o que faremos nesse tutorial, você precisará ter o Python 3 configurado, uma alternativa é usar o [virtualenv](https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment-for-python-3), que possibilita a criação de um ambiente de desenvolvimento isolado.
 
-Além do Python 3, faremos uso do [**Scrapy**](https://scrapy.org/), um framework que possui as ferramentas necessárias para **extrair** dados de websites, **processar** os que você queira e **armazená-los** na estrutura de seu interesse. Apesar de ser possível construir um crawler usando módulos fornecidos pelo próprio python, a medida que o seu projeto cresce, pode se tornar complicado gerenciar todos os processos da varredura de páginas da web, por isso faremos uso dele, mas caso tenha interesse em conhecer outras alternativas, deixarei links nas referências.
+Além do Python 3, faremos uso do [**Scrapy**](https://scrapy.org/), um framework que possui as ferramentas necessárias para **extrair** dados de websites, **processar** os que você queira e **armazená-los** na estrutura de seu interesse. Apesar de ser possível construir um crawler usando módulos fornecidos pelo próprio python, a medida que o seu projeto cresce, pode se tornar complicado gerenciar a execução do seu robôzinho, por isso faremos uso dele, mas caso tenha interesse em conhecer outras alternativas, deixarei links nas referências.
 
 Para instalá-lo, utilize o índice de pacotes do Python([`PyPI`](https://pypi.org/)), através do seguinte comando:
 
@@ -45,7 +45,7 @@ class GeniusSpider(scrapy.Spider):
 
 ```
 
-Primeiro, importamos o **scrapy** para termos acesso as funcionalidades que esse módulo fornece. Em seguida criamos um classe chamada `GeniusSpider` que é baseada na `Spider` do Scrapy, é ela que define quais métodos estamos hábeis a usar, que poderão nos auxiliar durante a execução do crawler. Por fim, definimos o nome do spider, como **genius** e o nosso *seed* como sendo a página dos parcels.
+Primeiro, importamos o **scrapy** para termos acesso as funcionalidades que esse módulo fornece. Em seguida, criamos um classe chamada `GeniusSpider` que é baseada na `Spider` do Scrapy, é ela que define quais métodos estamos hábeis a usar, que poderão nos auxiliar durante a execução do crawler. Por fim, definimos o nome do spider, como **genius** e o nosso *seed* como sendo a página dos parcels.
 
 Vamos executar e ver o que acontece. Diferentemente do que fazemos com scripts python, usaremos a forma que o próprio scrapy provê, por meio da sua CLI, através do seguinte comando:
 
@@ -69,7 +69,13 @@ Analisando a imagem, você pode ver que a sua direita existe uma listagem de car
 
 O scrapy extrai o conteúdo, baseado em *seletores*, os *seletores* são "padrões" ou "modelos" que casam com os elementos de uma árvore do documento e portanto podem ser usados para selecionar os nós de um documento HTML. Para conseguir fazer isso, o scrapy fornece duas formas, através do Xpath e através de seletores CSS, usaremos os seletores CSS, por simplicidade.
 
-Usando o inspetor do meu browser para analisar quais os nós que contém esse link, e então formar o nosso seletor, você deverá visualizar que o elemento que contém essa lista de cards é uma div: `<div class="mini_card_grid-song"><a href="...">...</div>`.
+Usando o inspetor do meu browser, para analisar quais os nós que contém esse link, e então formar o nosso seletor, consegui notar que o elemento que contém essa lista de cards é uma div, veja no gif:
+
+```html
+<div class="mini_card_grid-song">
+  <a href="...">...</a>
+</div>
+```
 
 ![](https://media.giphy.com/media/IfgHqsThQhDxkhy6C5/source.gif)
 
@@ -77,7 +83,7 @@ Sendo assim, podemos informar para o **scrapy** que ele deve obter algo como:
 
 `div.mini_clard_grid-song a::attr(href)`
 
-Isso indica que queremos os links, que são filhos da classe, `mini_card_grid-song`, por isso o `.`, como em CSS. Além disso, adicionamos esse trecho `::attr(href)` depois da tag `a`, porque se passassemos apenas a tag, teríamos todo o nó html, e nao apenas o link.
+Isso indica que queremos os links, que são filhos da classe, `mini_card_grid-song`, por isso o `.`, como em CSS. Além disso, adicionamos esse trecho `::attr(href)` depois da tag `a`, porque se definissemos o padrão apenas com a tag, teríamos todo o nó html, e nao apenas a url.
 
 Para entender melhor sobre os seletores CSS, veja [esse link](https://docs.scrapy.org/en/latest/topics/selectors.html) da documentaçao.
 
@@ -90,9 +96,9 @@ Assim, podemos construir nosso método:
             yield scrapy.Request(url=song_url, callback=self.parse_lyrics_page)
 ```
 
-O método é composto por um parâmetro **response**, que indica o conteúdo obtido após o crawler ter requisitado nossa url inicial. Feito isso, temos as urls das músicas sendo obtidas a partir do nosso seletor, essa lista de urls que o crawler requisitará é chamada de **frontier**. É importante ressaltar que usamos o `getAll()`, porque queremos extrair **todos** os seletores que casarem com o padrão que passamos, mas as vezes estamos interessados apenas na primeira ocorrência e podemos fazer uso do `get`. Uma vez que temos as urls, fazemos as requisições, passando a url e uma **callback**, que é uma função que será executada após o crawler fazer download da url que passamos.
+O método é composto por um parâmetro **response**, que indica o conteúdo obtido após o crawler ter requisitado nossa url inicial. Feito isso, temos as urls das músicas sendo obtidas a partir do nosso seletor, essa lista de urls que o crawler requisitará é chamada de **frontier**. É importante ressaltar que usamos o `getAll()`, porque queremos extrair **todos** os seletores que casarem com o padrão que passamos, mas as vezes estamos interessados apenas na primeira ocorrência e podemos fazer uso do `get()`. Uma vez que temos as urls, fazemos as requisições, passando a url e uma **callback**, que é uma função que será executada após o crawler fazer download da url que passamos.
 
-Ótimo, conseguimos alcançar a página das nossas músicas, mas e depois que chegamos nela o que faremos? Seguimos um processo muito parecido com o anterior, diferindo apenas que, ao invés de tentarmos extrair links, poderemos extrair nossa informação, como visto o método que será executado após ele consultar a página da música é o `parse_lyrics_page`, então adicione esse trecho no seu arquivo:
+Ótimo, conseguimos alcançar a página das nossas músicas, mas e depois que chegamos nela o que faremos? Seguimos um processo muito parecido com o anterior, diferindo apenas que, ao invés de tentarmos extrair links, poderemos extrair nossa informação. Do passo anterior, vemos que o método que será executado após ele consultar a página da música é o `parse_lyrics_page`, então adicione esse trecho no seu arquivo:
 
 ```python
 
@@ -129,9 +135,9 @@ O método é composto por um parâmetro **response**, que indica o conteúdo obt
 
 Muita coisa, né? mas vamos por partes, como diria Jack.
 
-Para extração das informações básicas como os artistas, a letra, o título, e os metadados, não temos nenhuma novidade em relacao ao que fizemos na extração dos links, já que só precisamos fornecer o seletor e ele irá obter a informação.
+Para extração das informações básicas como os artistas, a letra, o título, e os metadados, não temos nenhuma novidade em relação ao que fizemos na extração dos links, já que só precisamos fornecer o seletor e ele irá obter a informação.
 
-No entanto, as anotações seguem um comportamento diferente, olhando a página, você verá que os nós que deveriam conter as informações de anotações das músicas, contém apenas um identificador, que redirecionam pra outra página, que abriga o conteúdo delas. Então, o que estamos fazendo é, se existem anotações:
+No entanto, as anotações seguem um comportamento diferente, olhando a página, você verá que os elementos que deveriam conter as informações de anotações das músicas, contém apenas um identificador, que redirecionam para outra página, que abriga o conteúdo delas. Então, o que estamos fazendo é, se existem anotações:
 
 Obtenha esses ids, e para cada id obtido, concatene a nossa url inicial
 `urljoin(response.url, annotation_id)`
@@ -170,7 +176,7 @@ E é isso, você construiu o crawler! :hoo-ray:
 
 ## Considerações finais
 
-Até aqui você aprendeu os conceitos básicos para construir um crawler, a medida que seu projeto expandir você precisará lidar com outras coisas como *politeness policies*, porque pense, se fizermos muitas requisicões para um site, podemos sobrecarregar o mesmo, e torná-lo indisponivel por algum tempo. Leitura de sitemaps, para garantir que o crawler consiga obter efetivamente certos links que o website acredita ser essencial, além de varias outras técnicas.
+Até aqui você aprendeu os conceitos básicos para construir um crawler, a medida que seu projeto expandir você precisará lidar com outras coisas, como *politeness policies*, porque pense, se fizermos muitas requisicões para um site, podemos sobrecarregar o mesmo, e torná-lo indisponivel por algum tempo. Leitura de sitemaps, para garantir que o crawler consiga obter efetivamente certos links que o website acredita ser essencial, além de varias outras técnicas.
 
 Mas agora que voce já sabe o básico, me conta nos comentários alguma ideia que você pensa em construir! E se tiver qualquer dúvida, reclamação ou sugestão, fique à vontade para adicionar comentários neste post ou trocar uma ideia comigo fora dele, minhas redes sociais estao mapeadas no meu perfil.
 
@@ -192,4 +198,3 @@ E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmen
 ## Obrigada
 
 Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no Twitter, no Instagram e, claro, no GitHub.
-
