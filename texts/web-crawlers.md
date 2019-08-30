@@ -49,9 +49,9 @@ Primeiro, importamos o **scrapy** para termos acesso as funcionalidades que esse
 
 Vamos executar e ver o que acontece. Diferentemente do que fazemos com scripts python, usaremos a forma que o próprio scrapy provê, por meio da sua CLI, através do seguinte comando:
 
-`scrapy crawl genius`
+`scrapy runspider genius`
 
-// Output
+![](https://media.giphy.com/media/J5vyIVNU6PI2QVVMm7/source.gif)
 
 Certo, temos várias letrinhas bonitinhas e outras nem tanto, mas o que tudo isso quer dizer?
 
@@ -71,7 +71,7 @@ O scrapy extrai o conteúdo, baseado em *seletores*, os *seletores* são "padrõ
 
 Usando o inspetor do meu browser para analisar quais os nós que contém esse link, e então formar o nosso seletor, você deverá visualizar que o elemento que contém essa lista de cards é uma div: `<div class="mini_card_grid-song"><a href="...">...</div>`.
 
-//gif
+![](https://media.giphy.com/media/IfgHqsThQhDxkhy6C5/source.gif)
 
 Sendo assim, podemos informar para o **scrapy** que ele deve obter algo como:
 
@@ -160,7 +160,7 @@ Caso não existam anotações, ele já retornará o resultado, que é o objeto c
 `scrapy crawl genius -o parcels-lyrics.json`
 
 Você terá algo com:
-{% github https://gist.github.com/fanny/06aaad556fcba66abbfba4dd22e18f3c file=parcels-lyrics.json %}
+{% gist https://gist.github.com/fanny/06aaad556fcba66abbfba4dd22e18f3c file=parcels-lyrics.json %}
 
 **Nota:** É possível salvar o dado em outros formatos, como csv, dê uma olhada na [documentação](https://media.giphy.com/media/PSKAppO2LH56w/giphy.gif)
 
@@ -192,3 +192,4 @@ E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmen
 ## Obrigada
 
 Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no Twitter, no Instagram e, claro, no GitHub.
+
