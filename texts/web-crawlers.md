@@ -71,7 +71,7 @@ Analisando a imagem acima, você pode ver que à sua direita existe uma listagem
 
 O Scrapy extrai o conteúdo através de seletores, que são "padrões" ou "modelos" que casam com os elementos de uma árvore do documento e portanto podem ser usados para selecionar os nós de um documento HTML. Para conseguir fazer isso, o Scrapy fornece duas formas: através do Xpath e através de seletores CSS; usaremos os seletores CSS por questão de simplicidade.
 
-Usando o inspetor do meu browser, para analisar quais os nós que contém esse link, e então formar o nosso seletor, consegui notar que o elemento que contém essa lista de cards é uma div, veja no gif:
+Usando o inspetor do meu browser para analisar quais os nós que contêm esse link e então formar o nosso seletor, consegui notar que o elemento que contém essa lista de cards é uma div. Veja no GIF:
 
 ```html
 <div class="mini_card_grid-song">
