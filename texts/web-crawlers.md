@@ -189,7 +189,7 @@ E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmen
 
 ### Tutoriais
 
-[Documentacão do Scrapy](https://docs.scrapy.org/en/latest/intro/overview.html)  
+- [Documentacão do Scrapy](https://docs.scrapy.org/en/latest/intro/overview.html);  
 - [Fazendo web crawlers em Python - Inglês](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python);
 - [Utilizando o Scrapy do Python para monitoramento em sites de notícias - PTBR](https://medium.com/@marlessonsantana/utilizando-o-scrapy-do-python-para-monitoramento-em-sites-de-not%C3%ADcias-web-crawler-ebdf7f1e4966).
 
