@@ -24,7 +24,7 @@ Para instalá-lo, utilize o índice de pacotes do Python([`PyPI`](https://pypi.o
 
 `pip install Scrapy`
 
-Feito isso, podemos dar ínicio a nossa implementação.
+Feito isso, podemos dar início à nossa implementação.
 
 ## Além das letras
 
