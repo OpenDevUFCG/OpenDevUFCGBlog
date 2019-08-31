@@ -56,7 +56,7 @@ Diferentemente do que fazemos para executar scripts em Python, usaremos o comand
 
 Certo, temos várias letrinhas bonitinhas e outras nem tanto, mas o que tudo isso quer dizer?
 
-1. O scrapy carregou e configurou o que precisava para iniciar
+1. O Scrapy carregou e configurou o que precisava para iniciar;
 2. Requisitou a url que definimos no `start_urls`, e baixou o seu conteúdo
 3. Repassou esse conteúdo para um método parse, que como não o tínhamos criado, nada aconteceu e ele finalizou a execução.
 
