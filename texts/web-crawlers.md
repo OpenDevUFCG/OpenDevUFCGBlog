@@ -1,8 +1,8 @@
 ---
-title: Obtendo metadadados das músicas dos Parcels
+title: Usando Scrapy para obter metadadados das músicas dos Parcels, através do Genius.
 published: false
 description: Uso de webcrawler para extração de metadados de músicas
-tags: crawling, music, ptbr, scrapy
+tags: crawling, crawler, ptbr, scrapy
 ---
 
 Você já quis obter dados de um serviço que não disponibiliza uma API? Se você faz Computação na UFCG, provavelmente já escutou alguém falando do bot de matrícula. Já perguntou como ele funciona? Pois bem, no post de hoje você aprenderá como é possível fazer essas coisinhas e poderá usar sua criatividade para brincar e explorar ainda mais.
