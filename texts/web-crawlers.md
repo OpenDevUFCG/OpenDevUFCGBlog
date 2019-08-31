@@ -196,7 +196,7 @@ E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmen
 ### Livros
 
 - [Learning Scrapy](https://www.amazon.com.br/Learning-Scrapy-Dimitris-Kouzis-Loukas/dp/1784399787); 
-[Web Scraping with Python](https://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291/ref=as_li_ss_tl?ie=UTF8&qid=1469961194&sr=8-1&keywords=web+scraping+with+python&linkCode=sl1&tag=scraping06-20&linkId=eda03663399eeff90133094d677e4cd4)
+- [Web Scraping with Python](https://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291/ref=as_li_ss_tl?ie=UTF8&qid=1469961194&sr=8-1&keywords=web+scraping+with+python&linkCode=sl1&tag=scraping06-20&linkId=eda03663399eeff90133094d677e4cd4).
 
 ## Obrigada
 
