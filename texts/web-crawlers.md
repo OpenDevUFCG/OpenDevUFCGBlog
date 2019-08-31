@@ -28,7 +28,7 @@ Feito isso, podemos dar início à nossa implementação.
 
 ## Além das letras
 
-Se você usa o spotify, já viu que vez ou outra em algumas músicas são exibidas as letras e algumas informações interessantes, que são extraídas do [**Genius**](https://genius.com/). Motivada em obter essas informações de uma banda que eu conheci recentemente, chamada [**Parcels**](https://open.spotify.com/artist/3oKRxpszQKUjjaHz388fVA) (inclusive, fica aqui a sugestão, se você gosta de *Daft Punk*, provavelmente vai curtir eles), decidi construir esse crawler.
+Se você usa o Spotify, já viu que vez ou outra em algumas músicas são exibidas as letras e algumas informações interessantes que são extraídas do [**Genius**](https://genius.com/). Motivada em obter essas informações de uma banda que eu conheci recentemente, chamada [**Parcels**](https://open.spotify.com/artist/3oKRxpszQKUjjaHz388fVA) (inclusive, fica aqui a sugestão: se você gosta de *Daft Punk*, provavelmente vai curtir a música deles), decidi construir esse crawler.
 
 
 ![](https://spotifysupport.freetls.fastly.net/article-gallery/articles2/android/android_behind_the_lyrics.png)
