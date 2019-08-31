@@ -145,7 +145,7 @@ Se existem anotações, obtenha seus ids e, para cada id obtido, concatene a nos
 
 `urljoin(response.url, annotation_id)`
 
-E em seguida, fazemos uma requisição para cada um deles. Mas espere, essa requisição tem algo que ainda não vimos antes, um parâmetro chamado `meta`.
+E, em seguida, fazemos uma requisição para cada um deles. Mas espere, essa requisição tem algo que ainda não vimos antes: um parâmetro chamado `meta`.
 
 ![](https://media.giphy.com/media/a5viI92PAF89q/giphy.gif)
 
