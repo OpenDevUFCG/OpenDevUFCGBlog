@@ -200,4 +200,4 @@ E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmen
 
 ## Obrigada
 
-Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no Twitter, no Instagram e, claro, no GitHub.
+Muito obrigada pela leitura! Fique atento: em breve, teremos novos artigos de contribuidores do OpenDevUFCG aqui no dev.to. Acompanhe o OpenDevUFCG no [Twitter](https://www.twitter.com/OpenDevUFCG/), no [Instagram](https://www.instagram.com/OpenDevUFCG/) e, claro, no [GitHub](https://www.github.com/OpenDevUFCG/).
