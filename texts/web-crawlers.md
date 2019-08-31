@@ -46,7 +46,7 @@ class GeniusSpider(scrapy.Spider):
 
 ```
 
-Primeiro, importamos o **scrapy** para termos acesso as funcionalidades que esse módulo fornece. Em seguida, criamos um classe chamada `GeniusSpider` que é baseada na `Spider` do Scrapy, é ela que define quais métodos estamos hábeis a usar, que poderão nos auxiliar durante a execução do crawler. Por fim, definimos o nome do spider como **genius** e o nosso *seed* como sendo a página dos parcels.
+Primeiro, importamos o **Scrapy** para ter acesso às funcionalidades que esse módulo fornece. Em seguida, criamos um classe chamada `GeniusSpider`, baseada na `Spider` do Scrapy; é ela que define quais métodos estamos hábeis a usar, métodos estes que poderão nos auxiliar durante a execução do crawler. Por fim, definimos o nome do spider como **genius** e o nosso *seed* como sendo a página dos Parcels.
 
 Diferentemente do que fazemos com scripts em python, usaremos o comando que o próprio scrapy provê por meio da sua CLI:
 
