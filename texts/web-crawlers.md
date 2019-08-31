@@ -62,7 +62,7 @@ Certo, temos várias letrinhas bonitinhas e outras nem tanto, mas o que tudo iss
 
 ## Extraindo metadados
 
-O próximo passo é definir **como** o scrapy deve extrair o conteúdo, fazemos isso definindo o método **parse**. Nesse passo, é importante você entender como estão organizados os elementos da sua página, pois será essencial para transmitir para o crawler quais locais ele deve **raspar** quando extrair a página
+O próximo passo é definir **como** o Scrapy deve extrair o conteúdo: fazemos isso definindo o método **parse**. Nesse passo, é importante que você entenda como estão organizados os elementos da sua página, pois será essencial para transmitir ao crawler quais locais ele deve **raspar** quando extrair a página.
 
 ![](https://i.imgur.com/YJ9G6sg.png)
 
