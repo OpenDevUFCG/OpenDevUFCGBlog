@@ -85,7 +85,7 @@ Sendo assim, podemos informar ao **Scrapy** que ele deve obter algo como:
 
 `div.mini_clard_grid-song a::attr(href)`
 
-Isso indica que queremos os links, que são filhos de um elemento da classe `mini_card_grid-song`, por isso o `.` (como em CSS). Além disso, adicionamos esse trecho `::attr(href)` depois da tag `a`, porque se definíssemos o padrão apenas com a tag teríamos todo o nó html, e não apenas a url.
+Isso indica que queremos os links que são filhos de um elemento da classe `mini_card_grid-song`, por isso o `.` (como em CSS). Além disso, adicionamos esse trecho `::attr(href)` depois da tag `a`, porque se definíssemos o padrão apenas com a tag teríamos todo o nó HTML, e não apenas a url.
 
 Para entender melhor sobre os seletores CSS, veja [esse link](https://docs.scrapy.org/en/latest/topics/selectors.html) da documentaçao.
 
