@@ -137,7 +137,7 @@ O método é composto por um parâmetro **response**, que indica o conteúdo obt
 
 Muita coisa, né? Mas vamos por partes, como diria Jack.
 
-Para extração das informações básicas como os artistas, a letra, o título, e os metadados, não temos nenhuma novidade em relação ao que fizemos na extração dos links, já que só precisamos fornecer o seletor e ele irá obter a informação.
+Para extração das informações básicas como os artistas, a letra, o título e os metadados, não temos nenhuma novidade em relação ao que fizemos na extração dos links, já que só precisamos fornecer o seletor e ele irá obter a informação.
 
 No entanto, as anotações seguem um comportamento diferente, olhando a página, você verá que os elementos que deveriam conter as informações de anotações das músicas, contém apenas um identificador, que redireciona para outra página que abriga o conteúdo delas. Então, o que estamos fazendo é: 
 
