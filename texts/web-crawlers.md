@@ -18,7 +18,7 @@ Eles são muito importantes, pois as engines de busca os utilizam para retornar 
 
 Para conseguir reproduzir o que faremos nesse tutorial você precisará ter o Python 3 configurado. Uma alternativa é usar o [virtualenv](https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment-for-python-3), que possibilita a criação de um ambiente de desenvolvimento isolado.
 
-Além do Python 3, faremos uso do [**Scrapy**](https://scrapy.org/), um framework que possui as ferramentas necessárias para **extrair** dados de websites, **processar** os que você queira e **armazená-los** na estrutura de seu interesse. Apesar de ser possível construir um crawler usando módulos fornecidos pelo próprio python, a medida que o seu projeto cresce, pode se tornar complicado gerenciar a execução do seu robôzinho, por isso faremos uso dele, mas caso tenha interesse em conhecer outras alternativas, deixarei links nas referências.
+Além do Python 3, faremos uso do [**Scrapy**](https://scrapy.org/), um framework que possui as ferramentas necessárias para **extrair** dados de websites, **processar** os que você queira e **armazená-los** na estrutura de seu interesse. Apesar de ser possível construir um crawler usando módulos fornecidos pelo próprio Python, à medida que o seu projeto cresce, pode se tornar complicado gerenciar a execução do seu robôzinho, por isso faremos uso desse framework. Entretanto, caso você tenha interesse em conhecer outras alternativas, deixarei links nas referências.
 
 Para instalá-lo, utilize o índice de pacotes do Python([`PyPI`](https://pypi.org/)), através do seguinte comando:
 
