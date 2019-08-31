@@ -183,7 +183,7 @@ Até aqui você aprendeu os conceitos básicos para construir um crawler, a medi
 
 Mas agora que voce já sabe o básico, me conta nos comentários alguma ideia que você pensa em construir! E se tiver qualquer dúvida, reclamação ou sugestão, fique à vontade para adicionar comentários neste post ou trocar uma ideia comigo fora dele, minhas redes sociais estao mapeadas no meu perfil.
 
-E se quiser tá por dentro do que eu tô fazendo e escutando(música, é realmente uma das minhas paixões além de computação), me segue no [spotify](https://open.spotify.com/user/anotherfanny) ou [lastfm](https://www.last.fm/pt/user/Fannyvieira25) e [github](https://github.com/fanny)
+E se quiser estar por dentro do que eu tô fazendo e escutando (música é realmente uma das minhas paixões além de Computação), me segue no [Spotify](https://open.spotify.com/user/anotherfanny) ou [Last.fm](https://www.last.fm/pt/user/Fannyvieira25) e [GitHub](https://github.com/fanny).
 
 ## Referências
 
