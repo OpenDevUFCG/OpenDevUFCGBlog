@@ -33,7 +33,7 @@ Se você usa o Spotify, já viu que vez ou outra em algumas músicas são exibid
 
 ![](https://spotifysupport.freetls.fastly.net/article-gallery/articles2/android/android_behind_the_lyrics.png)
 
-A primeira coisa que um crawler precisa é de um ponto inicial, também chamado de **seed**, que será usado para iniciar a extração dos conteúdos. No nosso caso, esse ponto será a página da banda no genius, essa [aqui](https://genius.com/artists/Parcels).
+A primeira coisa que um crawler precisa é de um ponto inicial, também chamado de **seed**, que será usado para iniciar a extração dos conteúdos. No nosso caso, esse ponto será a página da banda no Genius ([essa aqui](https://genius.com/artists/Parcels)).
 
 Uma vez que temos isso, podemos iniciar a construção do nosso robôzinho. Crie um arquivo python chamado `genius.py`, que possui o seguinte conteúdo:
 
