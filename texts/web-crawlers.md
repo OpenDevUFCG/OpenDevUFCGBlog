@@ -100,7 +100,7 @@ Assim, podemos construir nosso método:
 
 O método é composto por um parâmetro **response**, que indica o conteúdo obtido após o crawler ter requisitado nossa url inicial. Feito isso, temos as urls das músicas sendo obtidas a partir do nosso seletor, essa lista de urls que o crawler requisitará é chamada de **frontier**. É importante ressaltar que usamos o `getAll()`, porque queremos extrair **todos** os seletores que casarem com o padrão que passamos, mas as vezes estamos interessados apenas na primeira ocorrência e podemos fazer uso do `get()`. Uma vez que temos as urls, fazemos as requisições, passando a url e uma **callback**, que é uma função que será executada após o crawler fazer download da url que passamos.
 
-Ótimo, conseguimos alcançar a página das nossas músicas, mas, e depois que chegamos nela, o que faremos ? Seguimos um processo muito parecido com o anterior, diferindo apenas que, ao invés de tentarmos extrair links, poderemos extrair nossa informação. Do passo anterior, vemos que o método que será executado após ele consultar a página da música é o `parse_lyrics_page`, então adicione esse trecho no seu arquivo:
+Ótimo, conseguimos alcançar as páginas das nossas músicas, mas depois que chegamos nelas, o que faremos? Seguimos um processo muito parecido com o anterior, diferindo apenas que, ao invés de tentar extrair links, poderemos extrair as informações desejadas. Do passo anterior, vemos que o método que será executado após ser consultada a página da música é o `parse_lyrics_page`, então adicione esse trecho ao seu arquivo:
 
 ```python
 
