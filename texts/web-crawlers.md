@@ -171,7 +171,7 @@ Caso não existam anotações, ele já retornará o resultado, que é o objeto c
 Você terá algo com:
 {% gist https://gist.github.com/fanny/06aaad556fcba66abbfba4dd22e18f3c file=parcels-lyrics.json %}
 
-**Nota:** É possível salvar o dado em outros formatos, como csv, dê uma olhada na [documentação](https://media.giphy.com/media/PSKAppO2LH56w/giphy.gif)
+**Nota:** É possível salvar o dado em outros formatos, como csv, dê uma olhada na [documentação](https://docs.scrapy.org/en/latest/topics/feed-exports.html#topics-feed-exports).
 
 E é isso, você construiu o crawler! :hoo-ray:
 
