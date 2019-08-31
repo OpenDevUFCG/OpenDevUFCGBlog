@@ -12,7 +12,7 @@ Você já quis obter dados de um serviço que não disponibiliza uma API? Se voc
 ![](https://media.giphy.com/media/l0IyiADcZ3Ecjrn5m/giphy.gif)
 
 Um **web crawler** pode ser definido como um script ou programa que é utilizado para acessar um website, extrair conteúdo e descobrir páginas relacionadas ao mesmo, repetindo o processo até que não existam mais páginas a ser pesquisadas.
-Eles são muito importantes, pois as engines de busca usam os crawlers para retornar resultados eficientes, devido a isso, frequentemente, algumas pessoas se referem a eles como bots da internet. De uma forma superficial, você pode pensar no crawler como um carinha que faz requisições para as páginas que ele encontra, e a medida que ele percorre essas páginas faz o parse do seu html.
+Eles são muito importantes, pois as engines de busca os utilizam para retornar resultados eficientes; devido a isso, frequentemente, algumas pessoas se referem a eles como bots da internet. De uma forma superficial, você pode pensar no crawler como um carinha que faz requisições para as páginas que ele encontra e, à medida que percorre essas páginas, faz o parse do seu HTML.
 
 ## Pré-Requisitos
 
