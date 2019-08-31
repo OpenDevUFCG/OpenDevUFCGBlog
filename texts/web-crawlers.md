@@ -151,7 +151,7 @@ E, em seguida, fazemos uma requisição para cada um deles. Mas espere, essa req
 
 O `meta` é a forma que o Scrapy provê para que consigamos nos comunicar entre uma página e outra. Então, o que estamos querendo dizer é que toda vez que ele consultar as páginas das anotações, leve consigo as informações que já extraímos dessa. Isso será útil para unirmos os dois objetos e retornamos os resultados.
 
-Agora que você está na página de anotações, encontre os seletores das anotações e retorne o resultado, e pronto, você terá feito o crawler. Como mostra o trecho abaixo:
+Agora que você está na página de anotações, encontre os seletores das anotações e retorne o resultado, e pronto, você terá feito o crawler. Deve ficar algo como mostrado no trecho abaixo:
 
 ```python
     def parse_annotation_page(self, response):
