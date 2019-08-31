@@ -81,7 +81,7 @@ Usando o inspetor do meu browser para analisar quais os nós que contêm esse li
 
 ![](https://media.giphy.com/media/IfgHqsThQhDxkhy6C5/source.gif)
 
-Sendo assim, podemos informar para o **scrapy** que ele deve obter algo como:
+Sendo assim, podemos informar ao **Scrapy** que ele deve obter algo como:
 
 `div.mini_clard_grid-song a::attr(href)`
 
