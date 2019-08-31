@@ -69,7 +69,7 @@ O próximo passo é definir **como** o Scrapy deve extrair o conteúdo: fazemos 
 Analisando a imagem acima, você pode ver que à sua direita existe uma listagem de cards com as músicas populares que, quando clicados, nos levam ao conteúdo que queremos. Dessa forma, esse deve ser o local de onde nosso crawler irá extrair os links.
 
 
-O scrapy extrai o conteúdo através de seletores, que são "padrões" ou "modelos" que casam com os elementos de uma árvore do documento e portanto podem ser usados para selecionar os nós de um documento HTML. Para conseguir fazer isso, o scrapy fornece duas formas: através do Xpath e através de seletores CSS, usaremos os seletores CSS, por simplicidade.
+O Scrapy extrai o conteúdo através de seletores, que são "padrões" ou "modelos" que casam com os elementos de uma árvore do documento e portanto podem ser usados para selecionar os nós de um documento HTML. Para conseguir fazer isso, o Scrapy fornece duas formas: através do Xpath e através de seletores CSS; usaremos os seletores CSS por questão de simplicidade.
 
 Usando o inspetor do meu browser, para analisar quais os nós que contém esse link, e então formar o nosso seletor, consegui notar que o elemento que contém essa lista de cards é uma div, veja no gif:
 
