@@ -179,7 +179,7 @@ E é isso, você construiu o crawler! :hoo-ray:
 
 ## Considerações finais
 
-Até aqui você aprendeu os conceitos básicos para construir um crawler, a medida que seu projeto expandir você precisará lidar com outras coisas, como *politeness policies*, porque pense, se fizermos muitas requisicões para um site, podemos sobrecarregar o mesmo, e torná-lo indisponivel por algum tempo. Leitura de sitemaps, para garantir que o crawler consiga obter efetivamente certos links que o website acredita ser essencial, além de varias outras técnicas.
+Até aqui você aprendeu os conceitos básicos para construir um crawler. À medida que seu projeto expandir, você precisará lidar com outras coisas, como *politeness policies*, porque pense: se fizermos muitas requisições para um site, podemos sobrecarregá-lo e torná-lo indisponível por algum tempo para outros usuários. Leitura de sitemaps também são importantes para garantir que o crawler consiga obter efetivamente certos links que o website acredita ser essenciais, além de várias outras técnicas.
 
 Entretanto, agora que você já sabe o básico, me conta nos comentários alguma ideia que você pensa em construir! E se tiver qualquer dúvida ou sugestão, fique à vontade para adicionar comentários neste post ou trocar uma ideia comigo fora dele (minhas redes sociais estão mapeadas no meu perfil).
 
