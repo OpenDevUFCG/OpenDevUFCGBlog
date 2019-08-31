@@ -141,7 +141,7 @@ Para extração das informações básicas como os artistas, a letra, o título 
 
 No entanto, as anotações seguem um comportamento diferente. Olhando a página, você verá que os elementos que deveriam conter as informações de anotações das músicas contém apenas um identificador, que redireciona para outra página que abriga o conteúdo delas. Então, o que estamos fazendo é: 
 
-Se existem anotações obtenha esses ids, e para cada id obtido, concatene a nossa url inicial 
+Se existem anotações, obtenha seus ids e, para cada id obtido, concatene a nossa url inicial: 
 
 `urljoin(response.url, annotation_id)`
 
