@@ -137,7 +137,7 @@ Nesse caso específico, nossa função complexa tinha uma chamada assíncrona (u
 
 ## Plus!
 
-Existem diversas bibliotecas que podem ser utilizadas para testes em JavaScript. Algumas das mais famosas são [Mocha](https://mochajs.org/#getting-started), [Sinon](https://sinonjs.org) e [Chai](https://chaijs.com), que geralmente são utilizados em conjunto. Atualmente, uma das bibliotecas que está sendo bastante visada é o [Jest](https://jestjs.io). Se você está pensando em como começar a aplicar o que aprendeu aqui, te sugiro fazer alguns testes simples num dos sites que você hospeda no GitHub Pages - um portfolio, um pequeno projeto de disciplina, quem sabe? Qualquer um desses vai te dar um bom contato inicial :).
+Existem diversas bibliotecas que podem ser utilizadas para testes em JavaScript. Algumas das mais famosas são [Mocha](https://mochajs.org/#getting-started), [Sinon](https://sinonjs.org) e [Chai](https://chaijs.com), que geralmente são utilizados em conjunto. Atualmente, uma das bibliotecas que está sendo bastante visada é o [Jest](https://jestjs.io). Se você está pensando em como começar a aplicar o que aprendeu aqui, te sugiro fazer alguns testes simples num dos sites que você hospeda no GitHub Pages — um portfolio, um pequeno projeto de disciplina, quem sabe? Qualquer um desses vai te dar um bom contato inicial :).
 
 ## Chegamos ao fim desse post... :(
 
