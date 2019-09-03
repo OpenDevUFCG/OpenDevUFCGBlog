@@ -67,7 +67,7 @@ describe('testes da função de cadastro', () => {
 });
 ```
 
-Agora que já vimos como os spies são declarados e verificados, é mais fácil entender seu significado: um spy serve para verificar se uma função foi chamada ou não durante a execução de outra função. No nosso exemplo, pedimos para que o jest "espie" o método `verificaUsername` e, após a chamada para a execução de `cadastrar`, verificamos se `verificaUsername` foi chamada. 
+Agora que já vimos como os spies são declarados e verificados, é mais fácil entender seu significado: um spy serve para verificar se uma função foi chamada ou não durante a execução de outra função. No nosso exemplo, pedimos para que o sinon (a biblioteca de testes que estamos usando) "espie" o método `verificaUsername` e, após a chamada para a execução de `cadastrar`, verificamos se `verificaUsername` foi chamada. 
 
 Entretanto, existe uma particularidade importante a se notar no nosso código: quando testamos um username inválido, a exceção ainda é lançada. Isso nos faz notar que nosso spy não modifica nada no código em execução, apenas verifica se as chamadas internas a uma função são realmente chamadas.
 
@@ -96,7 +96,7 @@ Na execução do nosso código, o código dessa função executará normalmente,
 
 ![Stubs](https://i0.wp.com/yukaichou.com/wp-content/uploads/2014/10/Gamification-vs-Manipulation-image.jpg?resize=600%2C375&ssl=1)
 
-Então, o que exatamente um Stub faz? Durante a execução dos nossos testes, um stub substitui uma função existente no código por uma função representativa, que nos permite controlar o retorno, para que o restante do código possa executar normalmente e possamos percorrer todos os cenários possíveis da execução do programa durante os testes. Vejamos como seria a aplicação de um stub no código dessa função:
+Então, o que exatamente um Stub faz? Durante a execução dos nossos testes, um stub substitui uma função existente no código por uma função representativa, na qual é possível controlar o seu retorno. Através desse controle, o restante do código pode executar normalmente e é possível percorrer todos os cenários da execução do programa durante os testes, manipulando o retorno do stub conforme adequado. Vejamos como seria a aplicação de um stub no código dessa função:
 
 ```javascript
 describe('testa operacaoComplexa', () => {
