@@ -92,7 +92,7 @@ function operacaoComplexa() {
 
 A função acima não parece ter uma lógica nem um motivo bem definidos, como é o caso da função de cadastro. Entretanto, não é esse o ponto em que precisamos focar: podemos ver que o retorno da `operacaoMenor` é importante para entendermos o que será retornado nessa função, seja em caso de sucesso ou em caso de erro. Consideremos então que, por exemplo, essa função menor faz uma requisição a um serviço externo, uma API por exemplo.
 
-Na execução do nosso código, o código dessa função executará normalmente, fazendo a requisição necessária. Durante os testes, entretanto, não se deve fazer uma chamada à API, ja que a API pode alterar dados reais da aplicação, deixar o bando de dados inconsistente, e causar muitos outros problemas. Precisamos então de uma forma para testar a operação complexa sem realmente executar o código de `operacaoMenor`, e para isso servem os **stubs**.
+Na execução do nosso código, o código dessa função executará normalmente, fazendo a requisição necessária. Durante os testes, entretanto, não se deve fazer uma chamada à API, já que a API pode alterar dados reais da aplicação, deixar o banco de dados inconsistente e causar muitos outros problemas. Precisamos então de uma forma para testar a operação complexa sem realmente executar o código de `operacaoMenor`, e para isso servem os **stubs**.
 
 ![Stubs](https://i0.wp.com/yukaichou.com/wp-content/uploads/2014/10/Gamification-vs-Manipulation-image.jpg?resize=600%2C375&ssl=1)
 
