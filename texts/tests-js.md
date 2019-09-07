@@ -19,10 +19,17 @@ Quando escrevemos testes para a função de cadastro, nossa intenção seria tes
 ```javascript
 describe('testes da função de cadastro', () => {
   it('testa um username válido', () => {
-    expect(cadastrar('teste', 'teste')).to.not.throw(); // Nesse caso, espera-se que não seja lançado um erro, visto que o username tem três ou mais caracteres
+    expect(cadastrar('teste', 'teste')).to.not.throw();
+    /* Nesse caso, espera-se que não seja lançado um erro,
+     * visto que o username tem três ou mais caracteres
+     */
   });
   it('testa um username invalido', () => {
-    expect(cadastrar('te', 'teste')).to.throw('O username necessita de pelo menos 3 caracteres'); // Nesse outro caso, como o username tem menos de 3 caracteres, espera-se que seja lançado um erro com a mensagem descrita
+    expect(cadastrar('te', 'teste')).to
+      .throw('O username necessita de pelo menos 3 caracteres');
+    /* Nesse outro caso, como o username tem menos de 3 caracteres,
+     * espera-se que seja lançado um erro com a mensagem descrita
+     */
   });
   // testes de senha, e outros fluxos do cadastro
 });
@@ -60,7 +67,8 @@ describe('testes da função de cadastro', () => {
   });
   it('testa um username invalido', () => {
     const spy = sinon.spy(verificaUsername);
-    expect(cadastrar('te', 'teste')).to.throw('O username necessita de pelo menos 3 caracteres');
+    expect(cadastrar('te', 'teste')).to
+      .throw('O username necessita de pelo menos 3 caracteres');
     expect(spy).to.have.been.called;
   });
   // testes de senha, e outros fluxos do cadastro
