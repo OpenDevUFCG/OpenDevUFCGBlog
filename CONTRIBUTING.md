@@ -14,7 +14,7 @@ Se quiser visualizar esse guia no dev.to, acesse [o seguinte link](https://dev.t
 
 Se essa é a primeira vez que você está contribuindo conosco, alguns poucos passos são necessários para que você obtenha permissão para fazer publicações.
 
-1. Crie uma conta no [dev.to](dev.to);
+1. Crie uma conta no [dev.to](https://dev.to);
 2. Acesse **Settings** > **Organization**;
 3. Em **New Organization**, insira a chave secreta que iremos te passar para que você entre na organização. Clique em **Join Organization** e agora estará tudo certo!
 4. Para começar a escrever o seu texto, clique em **Write a Post** e então no campo **Publish under an organization** selecione **OpenDevUFCG**. 
