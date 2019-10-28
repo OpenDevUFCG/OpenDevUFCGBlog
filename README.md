@@ -6,7 +6,8 @@
         </a>
     </h1>
     <strong>Tem algum conteúdo que você quer compartilhar com a comunidade? Fala com o OpenDevUFCG que a gente te impulsiona </strong>
-        <img src="docs/img/logo/opendev_logo.svg" alt="OpenDevUFCG" width="30px">
+    <br>
+     <img src="docs/img/logo/opendev_logo.svg" alt="OpenDevUFCG" width="30px">
 </div>
 
 ## Publicações
