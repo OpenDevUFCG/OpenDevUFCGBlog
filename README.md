@@ -2,7 +2,7 @@
     <img src="/docs/img/logo/blog_logo.png" alt="OpenDevUFCGBlog" width="500px">
     <h1>
         <a href="https://dev.to/OpenDevUFCG" target="_self">
-            <img src="docs/img/logo/opendev_logo.svg" alt="OpenDevUFCG" width="20px">
+            <img src="docs/img/logo/opendev_logo.svg" alt="OpenDevUFCG" width="25px">
             OpenDevUFCGBlog
         </a>
     </h1>
