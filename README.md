@@ -2,12 +2,14 @@
     <img src="/docs/img/logo/blog_logo.png" alt="OpenDevUFCGBlog" width="500px">
     <h1>
         <a href="https://dev.to/OpenDevUFCG" target="_self">
+            <img src="docs/img/logo/opendev_logo.svg" alt="OpenDevUFCG" width="25px">
             OpenDevUFCGBlog
         </a>
     </h1>
     <strong>Tem algum conteúdo que você quer compartilhar com a comunidade? Fala com o OpenDevUFCG que a gente te impulsiona </strong>
+    <br>
+    <img src="docs/img/gif_readme/blog.gif" alt="Blog" width="450px">
 </div>
-<br>
 
 ## Publicações
 |                                |Autor                          |Data                         | 
