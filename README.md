@@ -6,7 +6,6 @@
             OpenDevUFCGBlog
         </a>
     </h1>
-    <br>
     <strong>Tem algum conteúdo que você quer compartilhar com a comunidade? Fala com o OpenDevUFCG que a gente te impulsiona </strong>
 </div>
 
