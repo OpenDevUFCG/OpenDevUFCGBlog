@@ -9,7 +9,6 @@
 </div>
 <br>
 
-
 ## Publicações
 |                                |Autor                          |Data                         | 
 |--------------------------------|:-----------------------------:|:---------------------------:|
@@ -22,3 +21,6 @@
 |[Criando malhas simples com CSS Grid](https://dev.to/opendevufcg/criando-malhas-simples-com-css-grid-3kd2) |[Pedro Espíndula](https://dev.to/pedroespindula) | 17 de Agosto de 2019 |
 |[Introdução à Ciência de Dados](https://dev.to/opendevufcg/introducao-a-ciencia-de-dados-n4c) | [Hadrizia Santos](https://dev.to/hadrizia) | 10 de Agosto de 2019 |
 |[Contribuindo para projetos open source com GitHub](https://dev.to/opendevufcg/contribuindo-para-projetos-open-source-com-github-3i76) |[Lucas de Medeiros](https://dev.to/lukehxh) | 3 de Agosto de 2019|
+
+## Como contribuir
+Quer contribuir? Veja como no [`CONTRIBUTING.md`](https://github.com/OpenDevUFCG/OpenDevUFCGBlog/blob/master/CONTRIBUTING.md).
