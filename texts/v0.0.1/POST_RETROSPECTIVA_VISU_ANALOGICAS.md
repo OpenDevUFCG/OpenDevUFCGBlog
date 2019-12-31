@@ -40,4 +40,4 @@ Bem, tentei destacar os principais pontos da nossa organização esse ano. E, co
 [Livro](http://www.dear-data.com/thebook)
 - [Medium @Giorgia Lupi](https://medium.com/@giorgialupi).
 
-Então gente, é isto, de novo gostaria de agradecer a cada um que acredita em nossos projetos e na nossa comunidade, foi um ano muito legal para nossa organização, de bastante crescimento e de aprendizado, e sempre saibam, estamos dispostos para ajudar. Obrigada pela leitura, até ano que vem!
+Então, gente, é isto, de novo gostaria de agradecer a cada um que acredita em nossos projetos e na nossa comunidade! Foi um ano muito legal para nossa organização, de bastante crescimento e de aprendizado, e sempre saibam, estamos dispostos para ajudar. Obrigada pela leitura, até ano que vem!
