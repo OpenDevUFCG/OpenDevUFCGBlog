@@ -17,7 +17,7 @@ São desenhos ou ilustrações, feitas à mão mesmo, sobre algum dado. A refer�
 
 As imagens acima foram tiradas do livro _Dear Data_ e, ao final do post, indicarei algumas referências do trabalho delas.
 
-### Então, sabendo um pouco sobre visus analógicas, bora ver como os dados da Opendev se comportaram ao longo do ano de 2019? 
+### Então, sabendo um pouco sobre visus analógicas, bora ver como os dados da OpenDevUFCG se comportaram ao longo do ano de 2019? 
 
 O ano 2019, a organização fez 1 ano, e como resultado, tivemos crescimento da organização, com a criação de novos projetos, como podemos observar na imagem a seguir.
 
