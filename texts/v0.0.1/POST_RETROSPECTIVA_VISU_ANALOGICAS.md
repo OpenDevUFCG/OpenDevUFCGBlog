@@ -7,7 +7,7 @@ tags: ptbr, data, design, opensource
 
 Olá! Chegou o final do ano, para muitos é tempo de férias, de se reunir com a família e de relembrar momentos do ano que está chegando ao fim. A OpenDevUFCG também não ia deixar passar em branco isso, então, que tal recapitular alguns acontecimentos de 2019 através de visualizações analógicas?
 
-### Antes de mostrar as visus, um questionamento, o que são visualizações analógicas? 
+### Antes de mostrar as visus, um questionamento: o que são visualizações analógicas? 
 
 São desenhos ou ilustrações, feitas a mão mesmo, sobre algum dado. A referência dessas visus, é o trabalho [Dear data](http://www.dear-data.com/theproject) das designers Giorgia Lupi e Stefanie Posavec, em 2015, quando decidiram criar visualizações sobre dados do dia a dia e enviá-las através de cartões postais como forma de comunicar uma a outra o que estava acontecendo em suas rotinas. Por exemplo:
 
