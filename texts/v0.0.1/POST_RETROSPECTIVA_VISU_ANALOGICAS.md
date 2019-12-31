@@ -23,7 +23,7 @@ Em 2019, a OpenDevUFCG completou um ano e, como resultado, tivemos o crescimento
 
 ![Integrantes](https://thepracticaldev.s3.amazonaws.com/i/i7gekvfk1uh8u1a1qmda.jpeg) 
 
-Tendo em vista que o core cresceu, também tivemos mais ideias de projetos surgindo, é o que você vai ver na próxima imagem:
+Tendo em vista que o time _Core_ cresceu, também tivemos mais ideias de projetos surgindo. É o que você vai ver na próxima imagem:
 
 ![Projetos](https://thepracticaldev.s3.amazonaws.com/i/s69p68sabq47onmwc4ji.jpeg)
 
