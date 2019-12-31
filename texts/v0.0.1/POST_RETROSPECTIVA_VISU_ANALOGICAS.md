@@ -1,7 +1,7 @@
 ---
 title: Retrospectiva OpenDevUFCG 2019 com visualizações analógicas
 published: false
-description: Observando os dados da organização no ano de 2019
+description: Observando os dados da organização no ano de 2019.
 tags: visualização, dear data, design. 
 ---
 
@@ -41,4 +41,3 @@ Bem, tentei destacar os principais pontos da nossa organização esse ano. E, co
 [Medium @Giorgia Lupi](https://medium.com/@giorgialupi)
 
 Então gente, é isto, de novo gostaria de agradecer a cada um que acredita em nossos projetos e na nossa comunidade, foi um ano muito legal para nossa organização, de bastante crescimento e de aprendizado, e sempre saibam, estamos dispostos para ajudar. Obrigada pela leitura, até ano que vem!
-
