@@ -38,6 +38,6 @@ Bem, tentei destacar os principais pontos da nossa organização esse ano. E, co
 [O projeto](http://www.dear-data.com/theproject)
 - [Vídeo TED](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data);
 [Livro](http://www.dear-data.com/thebook)
-[Medium @Giorgia Lupi](https://medium.com/@giorgialupi)
+- [Medium @Giorgia Lupi](https://medium.com/@giorgialupi).
 
 Então gente, é isto, de novo gostaria de agradecer a cada um que acredita em nossos projetos e na nossa comunidade, foi um ano muito legal para nossa organização, de bastante crescimento e de aprendizado, e sempre saibam, estamos dispostos para ajudar. Obrigada pela leitura, até ano que vem!
