@@ -36,7 +36,7 @@ Então movidos por isso, pensamos em organizar o Hacktoberfest, um evento para r
 Bem, tentei destacar os principais pontos da nossa organização esse ano. E, como prometido, links com mais detalhes sobre o projeto Dear Data:
 
 [O projeto](http://www.dear-data.com/theproject)
-[Vídeo TED](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data)
+- [Vídeo TED](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data);
 [Livro](http://www.dear-data.com/thebook)
 [Medium @Giorgia Lupi](https://medium.com/@giorgialupi)
 
