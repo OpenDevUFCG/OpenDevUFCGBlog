@@ -9,7 +9,7 @@ Olá! Chegou o final do ano, para muitos é tempo de férias, de se reunir com a
 
 ### Antes de mostrar as visus, um questionamento: o que são visualizações analógicas? 
 
-São desenhos ou ilustrações, feitas a mão mesmo, sobre algum dado. A referência dessas visus, é o trabalho [Dear data](http://www.dear-data.com/theproject) das designers Giorgia Lupi e Stefanie Posavec, em 2015, quando decidiram criar visualizações sobre dados do dia a dia e enviá-las através de cartões postais como forma de comunicar uma a outra o que estava acontecendo em suas rotinas. Por exemplo:
+São desenhos ou ilustrações, feitas à mão mesmo, sobre algum dado. A referência dessas visus é o trabalho [Dear Data](http://www.dear-data.com/theproject) das designers Giorgia Lupi e Stefanie Posavec originado em 2015, quando decidiram criar visualizações sobre dados do dia a dia e enviá-las através de cartões postais como forma de comunicar uma à outra o que estava acontecendo em suas rotinas. Por exemplo:
 
 ![Exemplo 1](https://thepracticaldev.s3.amazonaws.com/i/e6soc2j62svs4xmzx8id.jpeg)
 
