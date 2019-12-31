@@ -5,7 +5,7 @@ description: Observando os dados da organização no ano de 2019.
 tags: ptbr, data, design, opensource
 ---
 
-Olá! Chegou o final do ano, para muitos é tempo de férias, se reunir com a família e de relembrar momentos do ano que está chegando ao fim. A Opendev também não ia deixar passar em branco isso, então, que tal recaptular alguns acontecimentos do ano através de visualizações analógicas?
+Olá! Chegou o final do ano, para muitos é tempo de férias, de se reunir com a família e de relembrar momentos do ano que está chegando ao fim. A OpenDevUFCG também não ia deixar passar em branco isso, então, que tal recapitular alguns acontecimentos de 2019 através de visualizações analógicas?
 
 ### Antes de mostrar as visus, um questionamento, o que são visualizações analógicas? 
 
