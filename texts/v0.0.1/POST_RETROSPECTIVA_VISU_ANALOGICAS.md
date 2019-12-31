@@ -2,7 +2,7 @@
 title: Retrospectiva OpenDevUFCG 2019 com visualizações analógicas
 published: false
 description: Observando os dados da organização no ano de 2019.
-tags: visualização, dear data, design. 
+tags: ptbr, data, design, opensource
 ---
 
 Olá! Chegou o final do ano, para muitos é tempo de férias, se reunir com a família e de relembrar momentos do ano que está chegando ao fim. A Opendev também não ia deixar passar em branco isso, então, que tal recaptular alguns acontecimentos do ano através de visualizações analógicas?
