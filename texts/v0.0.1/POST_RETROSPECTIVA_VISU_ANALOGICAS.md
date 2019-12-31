@@ -27,7 +27,7 @@ Tendo em vista que o time _Core_ cresceu, também tivemos mais ideias de projeto
 
 ![Projetos](https://thepracticaldev.s3.amazonaws.com/i/s69p68sabq47onmwc4ji.jpeg)
 
-É de grande satisfação ver o crescimento de nossos projetos e que nosso espírito de comunidade está impactando muitas pessoas, e como resultado, ver que nossa ideia está influenciando as pessoas a saber mais e participar de projetos open source. 
+É de grande satisfação ver o crescimento de nossos projetos e que nosso espírito de comunidade está impactando muitas pessoas, e como resultado, ver que nossa ideia está influenciando as pessoas a querer saber mais e participar de projetos _open source_. 
 
 Então, movidos por isso, pensamos em organizar o **Hacktoberfest OpenDevUFCG**, um evento para reunir boas ideias e pessoas legais para ajudar a comunidade através de atividades como palestras, minicursos, HackTime e abertura para sugestões. Agradecemos muito pelo apoio de todos, doadores e patrocinadores que compraram a ideia e deram apoio para o evento acontecer! Mas, deixando um pouco as palavras de lado, que tal ver os dados disso tudo?
 
