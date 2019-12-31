@@ -15,7 +15,7 @@ São desenhos ou ilustrações, feitas à mão mesmo, sobre algum dado. A refer�
 
 ![Exemplo 2](https://thepracticaldev.s3.amazonaws.com/i/fvh56hxw83setj9828ip.jpg)
 
-As imagens acima foram tiradas do livro Dear Data e, ao final do post, indicarei algumas referências do trabalho delas.
+As imagens acima foram tiradas do livro _Dear Data_ e, ao final do post, indicarei algumas referências do trabalho delas.
 
 ### Então, sabendo um pouco sobre visus analógicas, bora ver como os dados da Opendev se comportaram ao longo do ano de 2019? 
 
